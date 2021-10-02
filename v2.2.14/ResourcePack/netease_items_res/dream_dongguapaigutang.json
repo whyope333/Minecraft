@@ -1,0 +1,12 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:dongguapaigutang"
+},
+"components": {
+"minecraft:icon": "dream:dongguapaigutang",
+"minecraft:use_animation": "eat"
+}
+}
+}

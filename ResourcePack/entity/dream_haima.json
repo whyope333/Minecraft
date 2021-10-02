@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:haima",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dream_haima"
+      },
+      "geometry": {
+        "default": "geometry.dream_haima"
+      },
+      "spawn_egg": {
+        "base_color":"#FFFFFF",
+        "overlay_color":"#00FF00"
+      },
+      "scripts": {
+        "animate": [
+         "look_at_target",
+     "swim"
+     //{"attack": "query.is_delayed_attacking"}
+		 //"idle"
+        ]
+      },
+      "animations": {
+		//"move": "animation.dream_yezhu.move",
+    "swim": "animation.dream_haima.yidong",
+    //"stand": "animation.dream_hiama.jingzhi",
+		//"idle": "animation.dream_meirenyu.stand",
+		"look_at_target": "animation.common.look_at_target"   
+      },
+      "render_controllers": [ 
+	  "controller.render.dream_entity" 
+	  ]
+      
+    }
+  }
+}

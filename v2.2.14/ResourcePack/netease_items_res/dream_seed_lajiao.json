@@ -1,0 +1,12 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:seed_lajiao"
+},
+"components": {
+"minecraft:icon": "dream:seed_lajiao",
+"minecraft:render_offsets": "seeds"
+}
+}
+}

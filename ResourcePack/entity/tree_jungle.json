@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:tree_jungle",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dream_tree/jungle"
+      },
+      "geometry": {
+        "default": "geometry.tree_jungle"
+      },
+      
+     
+      "render_controllers": [
+        "controller.render.dream_entity" 
+      ]
+    }
+  }
+}

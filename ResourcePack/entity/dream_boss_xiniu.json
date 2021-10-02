@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:boss_xiniu",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/boss_xiniu"
+      },
+      "geometry": {
+        "default": "geometry.dream_boss_xiniu"
+      },
+      "spawn_egg": {
+        "base_color":"#FFFFFF",
+        "overlay_color":"#00FF00"
+      },
+      "scripts": {
+        "animate": [
+         "look_at_target",
+         //{"attack": "query.is_delayed_attacking"},
+         {"attack": "variable.attack_time > 0.0"},
+         {"attack1": "query.is_delayed_attacking"},
+         {"attack2": "query.is_roaring"},
+		 {"move": "query.ground_speed"},
+		 {"stand": "!query.ground_speed"}
+        ]
+      },
+      "animations": {
+		"attack": "animation.dream_xiniu.gongji",
+    "attack1": "animation.dream_xiniu.gongji1",//冲撞
+    "attack2": "animation.dream_xiniu.gongji2",//踩踏
+		"move": "animation.dream_xiniu.yidong",
+		"stand": "animation.dream_xiniu.jingzhi",
+		"look_at_target": "animation.common.look_at_target"   
+      },
+      "render_controllers": [ 
+	  "controller.render.dream_entity" 
+	  ]
+      
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:tree_yezi0",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dream_tree/yezi"
+      },
+      "geometry": {
+        "default": "geometry.tree_yezi0"
+      },
+      
+     
+      "render_controllers": [
+        "controller.render.dream_entity" 
+      ]
+    }
+  }
+}

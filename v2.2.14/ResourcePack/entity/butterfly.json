@@ -1,0 +1,39 @@
+{ 
+  
+  "format_version": "1.8.0", 
+  
+  "minecraft:client_entity": { 
+    "description": { 
+	  "identifier": "dream:butterfly", 
+	  "materials": { 
+	    "default": "entity_alphatest" 
+	  }, 
+	  "textures": { 
+	    "blue": "textures/entity/butterfly/butterfly",
+		"orange": "textures/entity/butterfly/butterfly2",
+        "white": "textures/entity/butterfly/butterfly3",
+		"pink": "textures/entity/butterfly/butterfly4",
+		"green": "textures/entity/butterfly/butterfly5",
+		"magic": "textures/entity/butterfly/butterfly6",
+		"yellow": "textures/entity/butterfly/butterfly7"
+	  }, 
+	  "geometry": { 
+	    "default": "geometry.butterfly"
+	  }, 
+	  "animations": { 
+	    "resting": "animation.butterfly.resting",
+        "flying": "animation.butterfly.flying"
+	  }, 
+	  "animation_controllers": [ 
+	    { "move": "controller.animation.butterfly.move" } 
+	  ], 
+	  "render_controllers": [ 
+	    "controller.render.butterfly" 
+	  ], 
+	  "spawn_egg": { 
+	    "base_color":"#FFFFFF",
+        "overlay_color":"#00FF00"
+	  } 
+    } 
+  } 
+}

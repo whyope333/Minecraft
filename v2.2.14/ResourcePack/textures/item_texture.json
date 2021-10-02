@@ -1,0 +1,759 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "dream:baicai": {
+            "textures": "textures/items/dream_baicai"
+        },
+        "dream:bailuobo": {
+            "textures": "textures/items/dream_bailuobo"
+        },
+        "dream:boluo": {
+            "textures": "textures/items/dream_boluo"
+        },
+        "dream:caomei": {
+            "textures": "textures/items/dream_caomei"
+        },
+        "dream:dacong": {
+            "textures": "textures/items/dream_dacong"
+        },
+        "dream:dingzi": {
+            "textures": "textures/items/dingzi"
+        },
+        "dream:donggua": {
+            "textures": "textures/items/dream_donggua"
+        },
+        "dream:doujiao": {
+            "textures": "textures/items/dream_doujiao"
+        },
+        "dream:duolajiao": {
+            "textures": "textures/items/dream_duolajiao"
+        },
+        "dream:gebulinlinghun": {
+            "textures": "textures/items/gebulinlinghun"
+        },
+        "dream:hauyecai": {
+            "textures": "textures/items/dream_huayecai"
+        },
+        "dream:hongluobo": {
+            "textures": "textures/items/dream_hongluobo"
+        },
+        "dream:hongzao": {
+            "textures": "textures/items/dream_hongzao"
+        },
+        "dream:huanggua": {
+            "textures": "textures/items/dream_huanggua"
+        },
+        "dream:huolongguo": {
+            "textures": "textures/items/dream_huolongguo"
+        },
+        "dream:huoyanzhitong": {
+            "textures": "textures/items/chiyanzhitong"
+        },
+        "dream:jiucai": {
+            "textures": "textures/items/dream_jiucai"
+        },
+        "dream:juanxincai": {
+            "textures": "textures/items/dream_juanxincai"
+        },
+        "dream:juzi": {
+            "textures": "textures/items/dream_juzi"
+        },
+        "dream:kaishuibaicai": {
+            "textures": "textures/items/dream_kaishuibaicai"
+        },
+        "dream:kaoshanyao": {
+            "textures": "textures/items/dream_kaoshanyao"
+        },
+        "dream:lajiao": {
+            "textures": "textures/items/dream_lajiao"
+        },
+        "dream:larou": {
+            "textures": "textures/items/dream_larou"
+        },
+        "dream:li": {
+            "textures": "textures/items/dream_li"
+        },
+        "dream:liangbanhuanggua": {
+            "textures": "textures/items/dream_liangbanhuanggua"
+        },
+        "dream:lianou": {
+            "textures": "textures/items/dream_lianou"
+        },
+        "dream:lianzi": {
+            "textures": "textures/items/dream_lianzi"
+        },
+        "dream:lingjiao": {
+            "textures": "textures/items/dream_lingjiao"
+        },
+        "dream:lizi": {
+            "textures": "textures/items/dream_lizi"
+        },
+        "dream:luobodunniunan": {
+            "textures": "textures/items/dream_luobodunniunan"
+        },
+        "dream:mangguo": {
+            "textures": "textures/items/dream_mangguo"
+        },
+        "dream:mianfen": {
+            "textures": "textures/items/dream_mianfen"
+        },
+        "dream:mifan": {
+            "textures": "textures/items/dream_mifan"
+        },
+        "dream:naiyou": {
+            "textures": "textures/items/dream_naiyou"
+        },
+        "dream:ningmeng": {
+            "textures": "textures/items/dream_ningmeng"
+        },
+        "dream:ningmengzhi": {
+            "textures": "textures/items/drean_ningmengzhi"
+        },
+        "dream:pipa": {
+            "textures": "textures/items/dream_pipa"
+        },
+        "dream:putao": {
+            "textures": "textures/items/dream_putao"
+        },
+        "dream:qiezi": {
+            "textures": "textures/items/dream_qiezi"
+        },
+        "dream:qincai": {
+            "textures": "textures/items/dream_qincai"
+        },
+        "dream:qingcaichaorousi": {
+            "textures": "textures/items/dream_qincaichaorousi"
+        },
+        "dream:qingjiao": {
+            "textures": "textures/items/dream_qingjiao"
+        },
+        "dream:qingzao": {
+            "textures": "textures/items/dream_qingzao"
+        },
+        "dream:qiukui": {
+            "textures": "textures/items/dream_qiukui"
+        },
+        "dream:renyulinpian": {
+            "textures": "textures/items/renyulinpian"
+        },
+        "dream:renyuzhixin": {
+            "textures": "textures/items/renyuzhixin"
+        },
+        "dream:seed_yumi": {
+            "textures": "textures/items/seed/yumi"
+        },
+        "dream:shanyao": {
+            "textures": "textures/items/dream_shanyao"
+        },
+        "dream:shanzha": {
+            "textures": "textures/items/dream_shanzha"
+        },
+        "dream:shiliu": {
+            "textures": "textures/items/dream_shiliu"
+        },
+        "dream:shizi": {
+            "textures": "textures/items/dream_shizi"
+        },
+        "dream:shousibaocai": {
+            "textures": "textures/items/dream_shousibaocai"
+        },
+        "dream:shuidao": {
+            "textures": "textures/items/dream_shuidao"
+        },
+        "dream:shutiao": {
+            "textures": "textures/items/dream_shutiao"
+        },
+        "dream:taozi": {
+            "textures": "textures/items/dream_taozi"
+        },
+        "dream:woju": {
+            "textures": "textures/items/dream_woju"
+        },
+        "dream:xiajiangganchaohuayecai": {
+            "textures": "textures/items/dream_xiajiangganchaohuayecai"
+        },
+        "dream:xihongshi": {
+            "textures": "textures/items/dream_xihongshi"
+        },
+        "dream:yangcong": {
+            "textures": "textures/items/dream_yangcong"
+        },
+        "dream:yezi": {
+            "textures": "textures/items/dream_yezi"
+        },
+        "dream:yingtao": {
+            "textures": "textures/items/dream_yingtao"
+        },
+        "dream:youzi": {
+            "textures": "textures/items/dream_youzi"
+        },
+        "dream:yumi": {
+            "textures": "textures/items/dream_yumi"
+        },
+        "dream:yumilao": {
+            "textures": "textures/items/dream_yumilao"
+        },
+        "dream:yundou": {
+            "textures": "textures/items/dream_yundou"
+        },
+        "dream:yuxiangqiezi": {
+            "textures": "textures/items/deram_yuxiangqiezi"
+        },
+        "dream:seed_baicai": {
+            "textures": "textures/items/seed/dream_seed_baicai"
+            },
+            "dream:seed_xihongshi": {
+                "textures": "textures/items/seed/dream_seed_xihongshi"
+                },
+"dream:seed_lajiao": {
+"textures": "textures/items/seed/dream_seed_lajiao"
+},
+"dream:seed_qiezi": {
+"textures": "textures/items/seed/dream_seed_qiezi"
+},
+"dream:seed_donggua": {
+"textures": "textures/items/seed/dream_seed_donggua"
+},
+"dream:seed_huanggua": {
+"textures": "textures/items/seed/dream_seed_huanggua"
+},
+"dream:seed_shuidao": {
+"textures": "textures/items/seed/dream_seed_shuidao"
+},
+"dream:seed_shanyao": {
+"textures": "textures/items/seed/dream_seed_shanyao"
+},
+"dream:seed_qincai": {
+"textures": "textures/items/seed/dream_seed_qincai"
+},
+"dream:seed_juanxincai": {
+"textures": "textures/items/seed/dream_seed_juanxincai"
+},
+"dream:seed_bailuobo": {
+"textures": "textures/items/seed/dream_seed_bailuobo"
+},
+"dream:seed_xiaomai": {
+"textures": "textures/items/seed/dream_seed_xiaomai"
+},
+"dream:seed_huluobo": {
+"textures": "textures/items/seed/dream_seed_huluobo"
+},
+"dream:seed_tudou": {
+"textures": "textures/items/seed/dream_seed_tudou"
+},
+"dream:seed_huayecai": {
+"textures": "textures/items/seed/dream_seed_huayecai"
+},
+"dream:liandao": {
+"textures": "textures/items/dream_liandao"
+},
+"dream:cookbook1": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook2": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook3": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook4": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook5": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook6": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook7": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook8": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook9": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook10": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook11": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook12": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:denglongjian": {
+"textures": "textures/items/dream_denglongjian"
+},
+"dream:youhu": {
+"textures": "textures/items/dream_youhu"
+},
+"dream:yan": {
+"textures": "textures/items/dream_yan"
+},
+"dream:baizhuoqiukui": {
+"textures": "textures/items/dream_baizhuoqiukui"
+},
+"dream:dongguapaigutang": {
+"textures": "textures/items/dream_dongguapaigutang"
+},
+"dream:jiucaichaojidan": {
+"textures": "textures/items/dream_jiucaichaojidan"
+},
+"dream:lianoupaigutang": {
+"textures": "textures/items/dream_lianoupaigutang"
+},
+"dream:qincaichaorousi": {
+"textures": "textures/items/dream_qincaichaorousi"
+},
+"dream:qingjiaoniangrou": {
+"textures": "textures/items/dream_qingjiaoniangrou"
+},
+"dream:qingchaohongyoucai": {
+"textures": "textures/items/dream_qingchaohongyoucai"
+},
+"dream:wojuchaolarou": {
+"textures": "textures/items/dream_wojuchaolarou"
+},
+"dream:cookbook13": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook14": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook15": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook16": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook17": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook18": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook19": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:xiangchun": {
+"textures": "textures/items/dream_xiangchun"
+},
+"dream:xiangchundanbing": {
+"textures": "textures/items/dream_xiangchundanbing"
+},
+"dream:cookbook20": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:armor_xinchuntao0": {
+"textures": "textures/items/armor/armor_xinchuntao0"
+},
+"dream:armor_xinchuntao1": {
+"textures": "textures/items/armor/armor_xinchuntao1"
+},
+"dream:armor_xinchuntao2": {
+"textures": "textures/items/armor/armor_xinchuntao2"
+},
+"dream:armor_xinchuntao3": {
+"textures": "textures/items/armor/armor_xinchuntao3"
+},
+"dream:hongbao": {
+"textures": "textures/items/dream_hongbao"
+},
+"dream:yuanbao": {
+"textures": "textures/items/dream_yuanbao"
+},
+"dream:eguike": {
+"textures": "textures/items/dream_eguike"
+},
+"dream:eyupi": {
+"textures": "textures/items/dream_eyupi"
+},
+"dream:haicishuimu": {
+"textures": "textures/items/dream_haicishuimu"
+},
+"dream:haima": {
+"textures": "textures/items/dream_haima"
+},
+"dream:hudiechhibang": {
+"textures": "textures/items/dream_hudiechibang"
+},
+"dream:jingyuzhi": {
+"textures": "textures/items/dream_jingyuzhi"
+},
+"dream:laoshuweiba": {
+"textures": "textures/items/dream_laoshuweiba"
+},
+"dream:lujiao": {
+"textures": "textures/items/dream_lujiao"
+},
+"dream:maotouyingyumao": {
+"textures": "textures/items/dream_maotouyingyumao"
+},
+"dream:qiedan": {
+"textures": "textures/items/dream_qiedan"
+},
+"dream:qingwatui": {
+"textures": "textures/items/dream_qingwatui"
+},
+"dream:shayuyachi": {
+"textures": "textures/items/dream_shayuyachi"
+},
+"dream:shedan": {
+"textures": "textures/items/dream_shedan"
+},
+"dream:xieziwei": {
+"textures": "textures/items/dream_xieziwei"
+},
+"dream:xiongzhnag": {
+"textures": "textures/items/dream_xiongzhang"
+},
+"dream:yezhuliaoya": {
+"textures": "textures/items/dream_yezhuliaoya"
+},
+"dream:yingzhua": {
+"textures": "textures/items/dream_yingzhua"
+},
+"dream:gaotang": {
+"textures": "textures/items/dream_gaotang"
+},
+"dream:cookbook21": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:bangqiubang": {
+"textures": "textures/items/bangqiubang"
+},
+"dream:huolongfu": {
+"textures": "textures/items/huolongfu"
+},
+"dream:lanbadao": {
+"textures": "textures/items/lanbadao"
+},
+"dream:moxianbang": {
+"textures": "textures/items/moxianbang"
+},
+"dream:qishijian": {
+"textures": "textures/items/qishijian"
+},
+"dream:xuejinchui": {
+"textures": "textures/items/xuejinchui"
+},
+"dream:xuejinfeibiao": {
+"textures": "textures/items/xuejinfeibiao"
+},
+"dream:zijinjian": {
+"textures": "textures/items/zijinjian"
+},
+"dream:zhumengguanlizhijian": {
+"textures": "textures/items/dream_zhumengguanlizhijian"
+},
+"dream:nianshouxunzhang": {
+"textures": "textures/items/dream_nianshouxunzhang"
+},
+"dream:armor_0": {
+"textures": "textures/items/dream_armor_0"
+},
+"dream:armor_1": {
+"textures": "textures/items/dream_armor_1"
+},
+"dream:armor_2": {
+"textures": "textures/items/dream_armor_2"
+},
+"dream:armor_3": {
+"textures": "textures/items/dream_armor_3"
+},
+"dream:qinglv0": {
+"textures": "textures/items/dream_qinglv0"
+},
+"dream:qinglv1": {
+"textures": "textures/items/dream_qinglv1"
+},
+"dream:qinglv2": {
+"textures": "textures/items/dream_qinglv2"
+},
+"dream:qinglv3": {
+"textures": "textures/items/dream_qinglv3"
+},
+"dream:qinglv4": {
+"textures": "textures/items/dream_qinglv4"
+},
+"dream:qinglv5": {
+"textures": "textures/items/dream_qinglv5"
+},
+"dream:qinglv6": {
+"textures": "textures/items/dream_qinglv6"
+},
+"dream:qinglv7": {
+"textures": "textures/items/dream_qinglv7"
+},
+"dream:shachijian": {
+"textures": "textures/items/dream_shachijian"
+},
+"dream:seed_hongyoucai": {
+"textures": "textures/items/seed/dream_seed_hongyoucai"
+},
+"dream:seed_jiucai": {
+"textures": "textures/items/seed/dream_seed_jiucai"
+},
+"dream:seed_qingjiao": {
+"textures": "textures/items/seed/dream_seed_qingjiao"
+},
+"dream:seed_wosun": {
+"textures": "textures/items/seed/dream_seed_wosun"
+},
+"dream:seed_yangcong": {
+"textures": "textures/items/seed/dream_seed_yangcong"
+},
+"dream:langyabang": {
+"textures": "textures/items/dream_langyabang"
+},
+"dream:seed_caomei": {
+"textures": "textures/items/seed/dream_seed_caomei"
+},
+"dream:seed_putao": {
+"textures": "textures/items/seed/dream_seed_putao"
+},
+"dream:seed_qiukui": {
+"textures": "textures/items/seed/dream_seed_qiukui"
+},
+"dream:banitem0": {
+"textures": "textures/items/dream_banitem0"
+},
+"dream:stone_baishuijing": {
+"textures": "textures/items/stone/dream_stone_baishuijing"
+},
+"dream:stone_feicui": {
+"textures": "textures/items/stone/dream_stone_feicui"
+},
+"dream:stone_hongbaoshi": {
+"textures": "textures/items/stone/dream_stone_hongbaoshi"
+},
+"dream:stone_lanbaoshi": {
+"textures": "textures/items/stone/dream_stone_lanbaoshi"
+},
+"dream:stone_manao": {
+"textures": "textures/items/stone/dream_stone_manao"
+},
+"dream:stone_mogenshi": {
+"textures": "textures/items/stone/dream_stone_mogenshi"
+},
+"dream:stone_oubo": {
+"textures": "textures/items/stone/dream_stone_oubo"
+},
+"dream:shuaxindaoju": {
+"textures": "textures/items/dream_shuaxindaoju"
+},
+"dream:stone_tansangshi": {
+"textures": "textures/items/stone/dream_stone_tansangshi"
+},
+"dream:stone_0": {
+"textures": "textures/items/stone/dream_stone_0"
+},
+"dream:stone_yueguangshi": {
+"textures": "textures/items/stone/dream_stone_yueguangshi"
+},
+"dream:stone_zumulv": {
+"textures": "textures/items/stone/dream_stone_zumulv"
+},
+"dream:fishi_citun": {
+"textures": "textures/items/fish/dream_fish_citun"
+},
+"dream:fishi_dalongxia": {
+"textures": "textures/items/fish/dream_fish_dalongxia"
+},
+"dream:fishi_dianman": {
+"textures": "textures/items/fish/dream_fish_dianman"
+},
+"dream:fish_feiyu": {
+"textures": "textures/items/fish/dream_fish_feiyu"
+},
+"dream:fish_haishen": {
+"textures": "textures/items/fish/dream_fish_haishen"
+},
+"dream:fish_hailuo": {
+"textures": "textures/items/fish/dream_fish_hailuo"
+},
+"dream:fish_jiweixia": {
+"textures": "textures/items/fish/dream_fish_weijixia"
+},
+"dream:fish_jiyu": {
+"textures": "textures/items/fish/dream_fish_jiyu"
+},
+"dream:fish_jinli": {
+"textures": "textures/items/fish/dream_fish_jinli"
+},
+"dream:fish_luyu": {
+"textures": "textures/items/fish/dream_fish_luyu"
+},
+"dream:fish_niqiu": {
+"textures": "textures/items/fish/dream_fish_niqiu"
+},
+"dream:fish_pangxie": {
+"textures": "textures/items/fish/dream_fish_pangxie"
+},
+"dream:fish_shanbei": {
+"textures": "textures/items/fish/dream_fish_shanbei"
+},
+"dream:fish_shenghao": {
+"textures": "textures/items/fish/dream_fish_shenghao"
+},
+"dream:tool_buchongwang": {
+"textures": "textures/items/dream_tool_buchongwang"
+},
+"dream:tool_huangjinyugan": {
+"textures": "textures/items/dream_tool_huangjinyugan"
+},
+"dream:tool_tieyugan": {
+"textures": "textures/items/dream_tool_tieyugan"
+},
+"dream:tool_zuanshiyugan": {
+"textures": "textures/items/dream_tool_zuanshiyugan"
+},
+"dream:fish_bimuyu": {
+"textures": "textures/items/fish/dream_fish_bimuyu"
+},
+"dream:fish_daiyu": {
+"textures": "textures/items/fish/dream_fish_daiyu"
+},
+"dream:fish_denglongyu": {
+"textures": "textures/items/fish/dream_fish_denglongyu"
+},
+"dream:fish_diwangxie": {
+"textures": "textures/items/fish/dream_fish_diwangxie"
+},
+"dream:fish_fengweiyu": {
+"textures": "textures/items/fish/dream_fish_fengweiyu"
+},
+"dream:fish_jinlongyu": {
+"textures": "textures/items/fish/dream_fish_jinlongyu"
+},
+"dream:fish_jinqiangyu": {
+"textures": "textures/items/fish/dream_fish_jinqiangyu"
+},
+"dream:fish_jugusheyu": {
+"textures": "textures/items/fish/dream_fish_jugusheyu"
+},
+"dream:fish_luofeiyu": {
+"textures": "textures/items/fish/dream_fish_luofeiyu"
+},
+"dream:fish_nianyu": {
+"textures": "textures/items/fish/dream_fish_nianyu"
+},
+"dream:fish_qiyu": {
+"textures": "textures/items/fish/dream_fish_qiyu"
+},
+"dream:fish_sanwenyu": {
+"textures": "textures/items/fish/dream_fish_sanwenyu"
+},
+"dream:fish_shadingyu": {
+"textures": "textures/items/fish/dream_fish_shadingyu"
+},
+"dream:fish_shirenyu": {
+"textures": "textures/items/fish/dream_fish_shirenyu"
+},
+"dream:fish_xunyu": {
+"textures": "textures/items/fish/dream_fish_xunyu"
+},
+"dream:fish_youyu": {
+"textures": "textures/items/fish/dream_fish_youyu"
+},
+"dream:fish_qiuyin": {
+"textures": "textures/items/dream_fish_qiuyin"
+},
+"dream:hongyoucai": {
+"textures": "textures/items/dream_hongyoucai"
+},
+"dream:fish_qiuyin1": {
+"textures": "textures/items/dream_fish_qiuyin1"
+},
+"dream:fish_qiuyin2": {
+"textures": "textures/items/dream_fish_qiuyin2"
+},
+"dream:cookbook22": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook23": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:cookbook24": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:pipagao": {
+"textures": "textures/items/dream_pipagao"
+},
+"dream:hongzaodangao": {
+"textures": "textures/items/dream_hongzaodangao"
+},
+"dream:cookbook25": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:yangcongchaodan": {
+"textures": "textures/items/dream_yangcongchaodan"
+},
+"dream:xiniujiao": {
+"textures": "textures/items/dream_xiniujiao"
+},
+"dream:juxijian": {
+"textures": "textures/items/juxijian"
+},
+"dream:fudai": {
+"textures": "textures/items/dream_fudai"
+},
+"dream:xuediaopi": {
+"textures": "textures/items/dream_xuediaopi"
+},
+"dream:haibaopi": {
+"textures": "textures/items/dream_haibaopi"
+},
+"dream:guojiang": {
+"textures": "textures/items/dream_guojiang"
+},
+"dream:cookbook26": {
+"textures": "textures/items/dream_cookbook"
+},
+"dream:arm_cat0": {
+"textures": "textures/items/dream_arm_cat0"
+},
+"dream:arm_cat1": {
+"textures": "textures/items/dream_arm_cat1"
+},
+"dream:arm_cat2": {
+"textures": "textures/items/dream_arm_cat2"
+},
+"dream:arm_cat3": {
+"textures": "textures/items/dream_arm_cat3"
+},
+"dream:armor_jieliuzi0": {
+"textures": "textures/items/dream_armor_jieliuzi0"
+},
+"dream:armor_jieliuzi1": {
+"textures": "textures/items/dream_armor_jieliuzi1"
+},
+"dream:armor_jieliuzi2": {
+"textures": "textures/items/dream_armor_jieliuzi2"
+},
+"dream:armor_jieliuzi3": {
+"textures": "textures/items/dream_armor_jieliuzi3"
+},
+"dream:huangyou": {
+"textures": "textures/items/dream_huangyou"
+},
+"dream:xiaochouliwu": {
+"textures": "textures/items/dream_xiaochouliwu"
+},
+"dream:armor_xiaochou0": {
+"textures": "textures/items/dream_armor_xiaochou0"
+},
+"dream:armor_xiaochou1": {
+"textures": "textures/items/dream_armor_xiaochou1"
+},
+"dream:armor_xiaochou2": {
+"textures": "textures/items/dream_armor_xiaochou2"
+},
+"dream:armor_xiaochou3": {
+"textures": "textures/items/dream_armor_xiaochou3"
+}
+}
+}

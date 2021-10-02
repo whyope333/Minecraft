@@ -1,0 +1,12 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:item_sapling_shiliushu"
+},
+"components": {
+"minecraft:icon": "dream:item_sapling_shiliushu",
+"minecraft:render_offsets": "seeds"
+}
+}
+}

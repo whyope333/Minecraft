@@ -1,0 +1,70 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dream:projectile_shuiren",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+	  "runtime_identifier": "dream:projectile_shuiren"
+    },
+  
+    
+    "components": {
+      "netease:custom_entity_type": {
+        "value": "projectile_entity"
+      },
+      "minecraft:collision_box": {
+        "width": 2.1,
+        "height": 0.25
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+        {
+          "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+          "cause": "lava",
+          "damage_per_tick": 4
+        }
+        ]
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+        "impact_damage": {
+          "damage": [ 6, 8],
+          "filter": "player",
+          "knockback": false,
+          "semi_random_diff_damage": false,
+          "destroy_on_hit": true
+        },
+        "remove_on_hit": { 
+        },
+        
+        "mob_effect": {
+              "effect": "slowness",
+              "durationeasy": 350,
+              "durationnormal": 350,
+              "durationhard": 350,
+              "amplifier": 1
+            }
+        
+        },
+        //"hit_sound": "bow.hit",
+        "power": 0.8,
+        "gravity": 0.01,
+        "uncertainty_base": 0,
+        "uncertainty_multiplier": 0,
+        "anchor": 1,
+        "liquid_inertia": 0.88,
+        "should_bounce": true,
+        "offset": [ 0, -0.5, 0 ]
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      }
+      }
+
+  }
+}

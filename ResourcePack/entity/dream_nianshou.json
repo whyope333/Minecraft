@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:nianshou",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dream_nianshou"
+      },
+      "geometry": {
+        "default": "geometry.dream_nianshou"
+      },
+      "spawn_egg": {
+        "base_color":"#FFFFFF",
+        "overlay_color":"#00FF00"
+      },
+      "scripts": {
+        "animate": [
+         "look_at_target",
+         //{"attack": "query.is_delayed_attacking"},
+         //"attack0",
+         {"attack": "variable.attack_time > 0.0"},
+		 {"move": "query.modified_move_speed"}
+        ]
+      },
+      "animations": {
+    //"attack0": "controller.animation.dream_gebulin.attack",
+		"attack": "animation.dream_nianshou.gongji",
+		"move": "animation.dream_nianshou.yidong",
+		//"stand": "animation.dream_gebulin.jingzhi",
+		"look_at_target": "animation.common.look_at_target"   
+      },
+      "render_controllers": [ 
+	  "controller.render.dream_entity" 
+	  ]
+      
+    }
+  }
+}

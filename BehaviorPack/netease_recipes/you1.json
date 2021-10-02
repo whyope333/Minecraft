@@ -1,0 +1,11 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+      "description": {
+      "identifier": "dream:you"
+      },
+      "tags": ["furnace"],
+      "input": "minecraft:cooked_porkchop",
+      "output": "dream:youhu"
+    }
+  }

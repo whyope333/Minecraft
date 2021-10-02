@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dream.xiaochou.move": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"RightArm": {
+					"rotation": ["math.cos(query.anim_time * 38.17)*15", 0, 0]
+				},
+				"LeftArm": {
+					"rotation": ["math.cos(query.anim_time * 38.17)*-15", 0, 0]
+				},
+				"RightLeg": {
+					"rotation": ["math.cos(query.anim_time * 38.17)*-15", 0, 0]
+				},
+				"LeftLeg": {
+					"rotation": ["math.cos(query.anim_time * 38.17)*15", 0, 0]
+				}
+			}
+		}
+	}
+}

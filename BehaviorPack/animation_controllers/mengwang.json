@@ -1,0 +1,57 @@
+{
+	"format_version": "1.8.0",
+	"animation_controllers": {
+		"controller.animation.dream_mengwang.shuiren": {
+			"states": {
+				"default": {
+					"on_entry": [
+						"@s minecraft:on_start_shoot"
+					],
+					"transitions": [
+						{ "prepare_shoot": "variable.cooldown=query.life_time;return query.is_charged;" }
+					]
+				},
+				"prepare_shoot": {
+					"transitions": [
+						{ "shoot": "return query.life_time - variable.cooldown > 0.9667;" }
+					]
+				},
+				"shoot": {
+					"on_entry": [
+						"@s minecraft:on_stop_shoot"
+					],
+					"transitions": [
+						{ "default": "return query.life_time - variable.cooldown > 6.9667;" }
+					]
+				}
+			}
+		},
+
+		"controller.animation.dream_mengwang.tunshi": {
+			"states": {
+				"default": {
+					"on_entry": [
+						"@s minecraft:on_start_mengwang_tunshi"
+					],
+					"transitions": [
+						{ "prepare_shoot": "variable.cooldown0 = query.life_time;" }
+					]
+				},
+				"prepare_shoot": {
+					"transitions": [
+						{ "shoot": "return query.life_time - variable.cooldown0 > 1.04;" }
+					]
+				},
+				"shoot": {
+					"on_entry": [
+						"@s minecraft:on_stop_menwang_tunshi"
+					],
+					"transitions": [
+						{ "default": "return query.life_time - variable.cooldown0 > 8.0;" }
+					]
+				}
+			}
+		}
+
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:tree_acacia",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dream_tree/acacia"
+      },
+      "geometry": {
+        "default": "geometry.tree_acacia"
+      },
+      
+     
+      "render_controllers": [
+        "controller.render.dream_entity" 
+      ]
+    }
+  }
+}

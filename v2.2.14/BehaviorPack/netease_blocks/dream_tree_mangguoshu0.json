@@ -1,0 +1,42 @@
+{
+"format_version": "1.10.0",
+"minecraft:block": {
+"description": {
+"identifier": "dream:tree_mangguoshu0",
+"register_to_creative_menu": false,
+"is_experimental": false
+},
+"components": {
+"minecraft:block_light_absorption": {
+"value": 0
+},
+"netease:render_layer": {
+"value": "alpha"
+},
+"netease:block_entity": {
+    "tick": true,
+    "movable": false
+  },
+  "minecraft:destroy_time": {
+    "value": 2.5
+},
+  "netease:random_tick": {
+  "enable": true,
+  "tick_to_script": true
+  },
+  "minecraft:loot": {
+  "table": "loot_tables/blocks/air.json"
+  },
+  "netease:aabb": {
+    "collision": {
+    "min": [0.25, 0.0, 0.25],
+    "max": [0.75, 1.0, 0.75]
+    },
+    "clip": {
+    "min": [0.25, 0.0, 0.25],
+    "max": [0.75, 1.0, 0.75]
+    }
+    }
+}
+}
+}

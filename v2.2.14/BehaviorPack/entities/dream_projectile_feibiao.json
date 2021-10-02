@@ -1,0 +1,71 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+	  "description": {
+		"identifier": "dream:projectile_feibiao",
+		"is_spawnable": false,
+		"is_summonable": true,
+		"is_experimental": false
+	  },
+	  
+  
+	  "components": {
+		"netease:custom_entity_type": {
+			"value": "projectile_entity"
+		},
+		"minecraft:scale": {
+          "value": 1.2
+        },
+		"minecraft:collision_box": {
+		  "width": 0.25,
+		  "height": 0.25
+		},
+		"minecraft:hurt_on_condition": {
+		  "damage_conditions": [
+			{
+			  "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+			  "cause": "lava",
+			  "damage_per_tick": 4
+			}
+		  ]
+		},
+		"minecraft:projectile": {
+		  "on_hit": {
+			"impact_damage": {
+			  "damage": [16,18],
+			  "knockback": true,
+			  "semi_random_diff_damage": false,
+			  "filter": {
+				"test": "is_family",
+				"subject": "other",
+				"operator": "!=",
+				"value": "boss_xiniu"
+			  },
+			  "destroy_on_hit": true
+			},
+			"remove_on_hit": { 
+			}
+			
+		  },
+		  //"hit_sound": "bow.hit",
+		  
+		  "power": 2.6,
+		  "gravity": 0.01,
+		  "uncertainty_base": 0,
+		  "uncertainty_multiplier": 0,
+		  "anchor": 1,
+		  "should_bounce": true,
+		  "offset": [ 0, -0.5, 0 ]
+		},
+		"minecraft:physics": {
+		},
+		"minecraft:pushable": {
+		  "is_pushable": false,
+		  "is_pushable_by_piston": true
+		}
+	  }
+  
+	 
+  
+	}
+  }

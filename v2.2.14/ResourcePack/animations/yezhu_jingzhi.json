@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dream_yezhu.stand": {
+			"loop": true,
+			"animation_length": 1.12,
+			"bones": {
+				"bone4": {
+					"rotation": [5, 0, 0]
+				},
+				"bone10": {
+					"rotation": [5, 0, 0]
+				},
+				"bone12": {
+					"rotation": {
+						"0.0": [-20, 0, 0],
+						"0.6": [-10, 0, 0],
+						"1.12": [-20, 0, 0]
+					}
+				},
+				"bone13": {
+					"rotation": {
+						"0.0": [15, 0, 0],
+						"0.6": [5, 0, 0],
+						"1.12": [15, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

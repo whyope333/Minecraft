@@ -1,0 +1,47 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dream_maotouying.jingzhi": {
+			"loop": true,
+			"animation_length": 0.52,
+			"bones": {
+				"bone4": {
+					"rotation": {
+						"0.0": [0, 0, -50],
+						"0.52": [0, 0, -50]
+					}
+				},
+				"bone5": {
+					"rotation": {
+						"0.0": [0, 0, 50],
+						"0.52": [0, 0, 50]
+					}
+				}
+			}
+		},
+		"animation.dream_maotouying.yidong": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"bone4": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time * -38.17)"]
+				},
+				"bone5": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time * 38.17)"]
+				}
+			}
+		},
+		"animation.dream_maotouying.gongji": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"bone4": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time * -38.17)*-10"]
+				},
+				"bone5": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time * 38.17)*10"]
+				}
+			}
+		}
+	}
+}

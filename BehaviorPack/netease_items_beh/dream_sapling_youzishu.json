@@ -1,0 +1,17 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:item_sapling_youzishu",
+"register_to_create_menu": true,
+"category": "dream"
+},
+"components": {
+"minecraft:max_stack_size": 64,
+"minecraft:seed": {
+"crop_result": "dream:sapling_youzishu",
+"plant_at": "dream:heitu"
+}
+}
+}
+}

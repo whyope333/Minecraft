@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:yezhu",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dream_yezhu"
+      },
+      "geometry": {
+        "default": "geometry.yezhu"
+      },
+      "spawn_egg": {
+        "base_color":"#FFFFFF",
+        "overlay_color":"#00FF00"
+      },
+      "scripts": {
+        "animate": [
+         "look_at_target",
+		 {"move": "query.modified_move_speed"},
+		 "idle"
+        ]
+      },
+      "animations": {
+		//"move": "animation.dream_yezhu.move",
+		"move": "animation.dream_entity.walk0",
+		"idle": "animation.dream_yezhu.stand",
+		"look_at_target": "animation.common.look_at_target"   
+      },
+      "render_controllers": [ 
+	  "controller.render.dream_entity" 
+	  ]
+      
+    }
+  }
+}

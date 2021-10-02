@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dream_haima.yidong": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"bone2": {
+					"rotation": ["math.cos(query.anim_time * 38.17)*10", 0, 0]
+				},
+				"bone3": {
+					"rotation": ["math.cos(query.anim_time * 38.17)*-10", 0, 0]
+				}
+			}
+		},
+		"animation.dream_haima.jingzhi": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"bone2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.52": [-2.5, 0, 0],
+						"1.04": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

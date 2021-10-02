@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "dream:juxijian"
+      },
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "202",
+        "222",
+        "313"
+      ],
+      "key": {
+        "0": {
+          "item": "dream:xiniujiao"
+        },
+        "1": {
+          "item": "minecraft:stick"
+        },
+        "2": {
+          "item": "minecraft:diamond"
+        },
+        "3": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "result": {
+        "item": "dream:juxijian"
+      }
+    }
+  }

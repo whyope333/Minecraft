@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dream:naiyou",
+            "category": "Construction"
+        },
+        "components": {
+            "minecraft:use_animation": "eat",
+            "minecraft:icon": "dream:naiyou"
+        }
+    }
+}

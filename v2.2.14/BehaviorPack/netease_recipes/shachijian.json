@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "dream:shayuchi"
+      },
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        " # ",
+        " # ",
+        " W "
+      ],
+      "key": {
+        "#": {
+          "item": "dream:shayuyachi"
+        },
+        "W": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "item": "dream:shachijian"
+      }
+    }
+  }

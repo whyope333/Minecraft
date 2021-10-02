@@ -1,0 +1,18 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:seed_hongyoucai",
+"register_to_create_menu": true,
+"category": "dream"
+},
+"components": {
+"minecraft:max_stack_size": 64,
+"minecraft:seed": {
+    "crop_result": "dream:crops_hongyoucai0",
+    "plant_at": "minecraft:farmland"
+    }
+}
+}
+}
+}

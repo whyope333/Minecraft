@@ -1,0 +1,116 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:xunzhishouhu",
+"register_to_create_menu": true,
+"category": "dream"
+},
+"components": {
+"minecraft:max_stack_size": 64,
+"minecraft:use_duration": 32,
+"minecraft:food": {
+"nutrition": 0,
+"saturation_modifier": "good",
+"is_meat": false,
+"can_always_eat": true,
+"cooldown_time": 32,
+"effects": [
+{
+"name": "speed",  //速度
+"chance": 0.3,
+"duration": 60,
+"amplifier": 1
+},
+{ 
+    "name": "strength",  //力量
+    "chance": 0.2,
+    "duration": 50,
+    "amplifier": 1
+    },
+    {
+        "name": "instant_health",  //瞬间治疗
+        "chance": 0.2,
+        "duration": 40,
+        "amplifier": 1
+        },
+        {
+            "name": "jump_boost",  //跳跃提升
+            "chance": 0.3,
+            "duration": 50,
+            "amplifier": 1
+            },
+            {
+                "name": "regeneration",  //生命恢复
+                "chance": 0.2,
+                "duration": 30,
+                "amplifier": 1
+                },
+                {
+                    "name": "resistance", //抗性提升
+                    "chance": 0.3,
+                    "duration": 40,
+                    "amplifier": 1
+                    },
+                    {
+                        "name": "fire_resistance",//抗火
+                        "chance": 0.2,
+                        "duration": 60,
+                        "amplifier": 1
+                        },
+                        {
+                            "name": "water_breathing",//水下呼吸
+                            "chance": 0.2,
+                            "duration": 50,
+                            "amplifier": 1
+                            },
+                            {
+                                "name": "invisibility",//隐身
+                                "chance": 0.13,
+                                "duration":40,
+                                "amplifier": 1
+                                },
+                                {
+                                    "name": "health_boost",//生命提升
+                                    "chance": 0.05,
+                                    "duration": 30,
+                                    "amplifier": 1
+                                    },
+                                    {
+                                        "name": "absorption",//伤害吸收
+                                        "chance": 0.1,
+                                        "duration": 40,
+                                        "amplifier": 1
+                                        },
+                                        {
+                                            "name": "slow_falling",//缓降
+                                            "chance": 0.2,
+                                            "duration": 60,
+                                            "amplifier": 1
+                                            },
+                                            {
+                                                "name": "conduit_power",//潮涌能量
+                                                "chance": 0.18,
+                                                "duration": 40,
+                                                "amplifier": 1
+                                                },
+                                                {
+                                                    "name": "night_vision",//夜视
+                                                    "chance": 0.2,
+                                                    "duration": 60,
+                                                    "amplifier": 1
+                                                    }
+
+
+
+                                                
+
+
+                            
+
+
+
+]
+}}
+}
+}

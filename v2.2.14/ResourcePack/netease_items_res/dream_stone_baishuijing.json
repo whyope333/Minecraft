@@ -1,0 +1,11 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:stone_baishuijing"
+},
+"components": {
+"minecraft:icon": "dream:stone_baishuijing"
+}
+}
+}

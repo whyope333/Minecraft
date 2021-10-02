@@ -1,0 +1,33 @@
+{
+"format_version": "1.13.0",
+"netease:block_geometry": {
+"description": {
+"identifier": "dream:dream_guanggao",
+"textures": [
+"dream:dream_guanggao"
+],
+"use_ao": false
+},
+"bones": [
+    {
+        "name": "bone",
+        "pivot": [0, 0, 0],
+        "cubes": [
+            {
+                "origin": [-48, 0, 0],
+                "size": [80, 48, 16],
+                "uv": {
+                    "north": {"uv": [0, 5.44144], "uv_size": [15.97113, 10.55831]},
+                    "east": {"uv": [0, 3.63906], "uv_size": [0.54588, 1.76619]},
+                    "south": {"uv": [0, 2], "uv_size": [2.625, 1.625]},
+                    "west": {"uv": [0, 3.63906], "uv_size": [0.54588, 1.76619]},
+                    "up": {"uv": [2.88288, 0.60344], "uv_size": [2.873, -0.60344]},
+                    "down": {"uv": [2.88288, 0.60344], "uv_size": [2.873, -0.60344]}
+                }
+            }
+        ]
+    }
+]
+
+}
+}

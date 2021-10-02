@@ -1,0 +1,44 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.dream_entity.walk1" : {
+			"anim_time_update" : "query.modified_distance_moved",
+			"loop" : true,
+			"bones" : {
+				"bone3" : {
+					"rotation" : [ "math.cos(query.anim_time * 38.17) *  15", 0.0, 0.0 ]
+				},
+				"bone4" : {
+					"rotation" : [ "math.cos(query.anim_time * 38.17) *  30", 0.0, 0.0 ]
+				},
+				
+				"bone9" : {
+					"rotation" : [ "math.cos(query.anim_time * 38.17) * -15", 0.0, 0.0 ]
+				},
+				"bone10" : {
+					"rotation" : [ "math.cos(query.anim_time * 38.17) * -30 ", 0.0, 0.0 ]
+				},
+				
+				"bone5" : {
+					"rotation" : [ "math.cos(query.anim_time * 38.17) * -15", 0.0, 0.0 ]
+				},
+				"bone6" : {
+					"rotation" : [ "math.cos(query.anim_time * 38.17) * -30", 0.0, 0.0 ]
+				},
+				
+				"bone7" : {
+					"rotation" : [ "math.cos(query.anim_time * 38.17) *  15", 0.0, 0.0 ]
+				},
+				"bone8" : {
+					"rotation" : [ "math.cos(query.anim_time * 38.17) *  30", 0.0, 0.0 ]
+				}
+				
+				
+				
+				
+				
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:tree_big_oak",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dream_tree/big_oak"
+      },
+      "geometry": {
+        "default": "geometry.tree_big_oak"
+      },
+      
+     
+      "render_controllers": [
+        "controller.render.dream_entity" 
+      ]
+    }
+  }
+}

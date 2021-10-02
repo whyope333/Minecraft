@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dream_chuansongmen.move": {
+			"loop": true,
+			"animation_length": 1.56,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.36": [0, 90, 0],
+						"0.72": [0, 180, 0],
+						"1.16": [0, 270, 0],
+						"1.56": [0, 360, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:laoshu",
+      "materials": {
+        "default": "entity_alphatest",
+		"default1": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/laoshu/laoshu",
+		"default1": "textures/entity/laoshu/laoshu_1"
+      },
+      "geometry": {
+        "default": "geometry.laoshu"
+      },
+      "spawn_egg": {
+        "base_color":"#FFFFFF",
+        "overlay_color":"#00FF00"
+      },
+      "scripts": {
+        "animate": [
+         "look_at_target",
+		 "stand",
+		 {"move0": "query.ground_speed > 0 && query.ground_speed <= 3"},
+		 {"move1": "query.ground_speed > 3.3"}
+        ]
+      },
+      "animations": {
+		"move0": "animation.laoshu.move0",
+		"move1": "animation.laoshu.move1",
+		"stand0": "animation.laoshu.stand0",
+		"stand1": "animation.laoshu.stand1",
+		"stand": "controller.animation.laoshu.stand",
+		
+		"look_at_target": "animation.common.look_at_target"   
+      },
+      "render_controllers": [ 
+	  "controller.render.laoshu" 
+	  ]
+      
+    }
+  }
+}

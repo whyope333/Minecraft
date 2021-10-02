@@ -1,0 +1,35 @@
+{
+"format_version": "1.13.0",
+"netease:block_geometry": {
+"description": {
+"identifier": "dream:manghe",
+"textures": [
+"dream:manghe"
+],
+"use_ao": false
+},
+"bones": [
+    {
+        "name": "unknown_bone",
+        "pivot": [0, 0, 0],
+        "cubes": [
+            {
+                "origin": [-15, 0, 1],
+                "size": [14, 14, 14],
+                "uv": {
+                    "north": {"uv": [0, 0], "uv_size": [15.999, 15.999]},
+                    "east": {"uv": [0, 0], "uv_size": [15.997, 15.997]},
+                    "south": {"uv": [0, 0], "uv_size": [15.997, 15.998]},
+                    "west": {"uv": [0, 0], "uv_size": [15.997, 15.997]},
+                    "up": {"uv": [15.997, 15.997], "uv_size": [-15.997, -15.997]},
+                    "down": {"uv": [15.997, 15.998], "uv_size": [-15.997, -15.998]}
+                }
+            }
+        ]
+    }
+]
+
+
+
+}
+}

@@ -1,0 +1,12 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.chibang0": {
+      "geometry": "Geometry.chibang0",
+      "materials": [
+	  { "*": "Material.chibang0" } 
+	  ],
+      "textures": ["Texture.chibang0"]
+    }
+  }
+}

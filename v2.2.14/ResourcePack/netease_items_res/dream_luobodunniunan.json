@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dream:luobodunniunan",
+            "category": "Nature"
+        },
+        "components": {
+            "minecraft:icon": "dream:luobodunniunan",
+            "minecraft:use_animation": "eat"
+        }
+    }
+}

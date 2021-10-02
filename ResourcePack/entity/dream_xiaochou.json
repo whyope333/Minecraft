@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:xiaochou",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dream_xiaochou"
+      },
+      "geometry": {
+        "default": "geometry.dream_xiaochou"
+      },
+      "scripts": {
+        "animate": [
+          {"move": "query.ground_speed"}
+        ]
+       
+      },
+      "animations": {
+
+        "move": "animation.dream.xiaochou.move"
+      },
+      "render_controllers": [
+        "controller.render.dream_entity" 
+      ]
+    }
+  }
+}

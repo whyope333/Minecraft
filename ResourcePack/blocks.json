@@ -1,0 +1,552 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "dream:tanwei": {
+        "netease_model": "dream:tanwei",
+        "sound": "wood"
+    },
+    "dream:xiwantai": {
+        "netease_model": "dream:xiwantai",
+        "sound": "wood"
+    },
+    "dream:luzi": {
+        "netease_model": "dream:luzi",
+        "sound": "wood"
+    },
+
+    "dream:crops_yumi0": {
+        "netease_model": "dream:crops_yumi0",
+        "sound": "grass"
+    },
+    "dream:crops_yumi1": {
+        "netease_model": "dream:crops_yumi1",
+        "sound": "grass"
+    },
+    "dream:crops_yumi2": {
+        "netease_model": "dream:crops_yumi2",
+        "sound": "grass"
+    },
+    "dream:crops_baicai0": {
+        "netease_model": "dream:crops_baicai0",
+        "sound": "grass"
+        },
+        "dream:crops_baicai1": {
+        "netease_model": "dream:crops_baicai1",
+        "sound": "grass"
+        },
+        "dream:crops_baicai2": {
+        "netease_model": "dream:crops_baicai2",
+        "sound": "grass"
+        },
+        "dream:crops_xihongshi0": {
+            "netease_model": "dream:crops_xihongshi0",
+            "sound": "grass"
+            },
+            "dream:crops_xihongshi1": {
+            "netease_model": "dream:crops_xihongshi1",
+            "sound": "grass"
+            },
+            "dream:crops_xihongshi2": {
+            "netease_model": "dream:crops_xihongshi2",
+            "sound": "grass"
+            },
+"dream:crops_lajiao0": {
+"netease_model": "dream:crops_lajiao0",
+"sound": "grass"
+},
+"dream:crops_lajiao1": {
+"netease_model": "dream:crops_lajiao1",
+"sound": "grass"
+},
+"dream:crops_lajiao2": {
+"netease_model": "dream:crops_lajiao2",
+"sound": "grass"
+},
+"dream:crops_qiezi0": {
+"netease_model": "dream:crops_qiezi0",
+"sound": "grass"
+},
+"dream:crops_qiezi1": {
+"netease_model": "dream:crops_qiezi1",
+"sound": "grass"
+},
+"dream:crops_qiezi2": {
+"netease_model": "dream:crops_qiezi2",
+"sound": "grass"
+},
+"dream:crops_donggua0": {
+"netease_model": "dream:crops_donggua0",
+"sound": "grass"
+},
+"dream:crops_donggua1": {
+"netease_model": "dream:crops_donggua1",
+"sound": "grass"
+},
+"dream:crops_donggua2": {
+"netease_model": "dream:crops_donggua2",
+"sound": "grass"
+},
+"dream:crops_huanggua0": {
+"netease_model": "dream:crops_huanggua0",
+"sound": "grass"
+},
+"dream:crops_huanggua1": {
+"netease_model": "dream:crops_huanggua1",
+"sound": "grass"
+},
+"dream:crops_huanggua2": {
+"netease_model": "dream:crops_huanggua2",
+"sound": "grass"
+},
+"dream:crops_shuidao0": {
+"netease_model": "dream:crops_shuidao0",
+"sound": "grass"
+},
+"dream:crops_shuidao1": {
+"netease_model": "dream:crops_shuidao1",
+"sound": "grass"
+},
+"dream:crops_shuidao2": {
+"netease_model": "dream:crops_shuidao2",
+"sound": "grass"
+},
+"dream:crops_shanyao0": {
+"netease_model": "dream:crops_shanyao0",
+"sound": "grass"
+},
+"dream:crops_shanyao1": {
+"netease_model": "dream:crops_shanyao1",
+"sound": "grass"
+},
+"dream:crops_shanyao2": {
+"netease_model": "dream:crops_shanyao2",
+"sound": "grass"
+},
+"dream:crops_qincai0": {
+"netease_model": "dream:crops_qincai0",
+"sound": "grass"
+},
+"dream:crops_qincai1": {
+"netease_model": "dream:crops_qincai1",
+"sound": "grass"
+},
+"dream:crops_qincai2": {
+"netease_model": "dream:crops_qincai2",
+"sound": "grass"
+},
+"dream:crops_juanxincai0": {
+"netease_model": "dream:crops_juanxincai0",
+"sound": "grass"
+},
+"dream:crops_juanxincai1": {
+"netease_model": "dream:crops_juanxincai1",
+"sound": "grass"
+},
+"dream:crops_juanxincai2": {
+"netease_model": "dream:crops_juanxincai2",
+"sound": "grass"
+},
+"dream:crops_bailuobo0": {
+"netease_model": "dream:crops_bailuobo0",
+"sound": "grass"
+},
+"dream:crops_bailuobo1": {
+"netease_model": "dream:crops_bailuobo1",
+"sound": "grass"
+},
+"dream:crops_bailuobo2": {
+"netease_model": "dream:crops_bailuobo2",
+"sound": "grass"
+},
+"dream:qiqiu": {
+"netease_model": "dream:qiqiu",
+"sound": "grass"
+},
+"dream:crops_xiaomai0": {
+"netease_model": "dream:crops_xiaomai0",
+"sound": "grass"
+},
+"dream:crops_xiaomai1": {
+"netease_model": "dream:crops_xiaomai1",
+"sound": "grass"
+},
+"dream:crops_xiaomai2": {
+"netease_model": "dream:crops_xiaomai2",
+"sound": "grass"
+},
+"dream:crops_huayecai0": {
+"netease_model": "dream:crops_huayecai0",
+"sound": "grass"
+},
+"dream:crops_huayecai1": {
+"netease_model": "dream:crops_huayecai1",
+"sound": "grass"
+},
+"dream:crops_huayecai2": {
+"netease_model": "dream:crops_huayecai2",
+"sound": "grass"
+},
+"dream:furniture_bingxiang": {
+"netease_model": "dream:furniture_bingxiang",
+"sound": "wood"
+},
+"dream:furniture_guizi1": {
+"netease_model": "dream:furniture_guizi1",
+"sound": "wood"
+},
+"dream:furniture_guizi2": {
+"netease_model": "dream:furniture_guizi2",
+"sound": "wood"
+},
+"dream:furniture_zhiwujia": {
+"netease_model": "dream:furniture_zhiwujia",
+"sound": "wood"
+},
+"dream:furniture_dazhuozi": {
+"netease_model": "dream:furniture_dazhuozi",
+"sound": "wood"
+},
+"dream:furniture_diaogui": {
+"netease_model": "dream:furniture_diaogui",
+"sound": "wood"
+},
+"dream:furniture_yizi": {
+"netease_model": "dream:furniture_yizi",
+"sound": "wood"
+},
+"dream:furniture_guizi": {
+"netease_model": "dream:furniture_guizi",
+"sound": "wood"
+},
+"dream:furniture_xiaozhuozi": {
+"netease_model": "dream:furniture_xiaozhuozi",
+"sound": "wood"
+},
+"dream:manghe": {
+"netease_model": "dream:manghe",
+"sound": "wood"
+},
+"dream:jiaozi": {
+"netease_model": "dream:jiaozi",
+"sound": "wood"
+},
+"dream:niannianyouyu": {
+"netease_model": "dream:niannianyouyu",
+"sound": "wood"
+},
+"dream:babaofan": {
+"netease_model": "dream:babaofan",
+"sound": "wood"
+},
+"dream:facaishu": {
+"netease_model": "dream:facaishu",
+"sound": "wood"
+},
+"dream:bianpao": {
+"netease_model": "dream:bianpao",
+"sound": "wood"
+},
+"dream:denglong": {
+"netease_model": "dream:denglong",
+"sound": "wood"
+},
+"dream:chuansongfangkuai": {
+"netease_model": "dream:chuansongfangkuai",
+"sound": "wood"
+},
+"dream:crops_hongyoucai0": {
+"netease_model": "dream:crops_hongyoucai0",
+"sound": "grass"
+},
+"dream:crops_hongyoucai1": {
+"netease_model": "dream:crops_hongyoucai1",
+"sound": "grass"
+},
+"dream:crops_hongyoucai2": {
+"netease_model": "dream:crops_hongyoucai2",
+"sound": "grass"
+},
+"dream:crops_jiucai0": {
+"netease_model": "dream:crops_jiucai0",
+"sound": "grass"
+},
+"dream:crops_jiucai1": {
+"netease_model": "dream:crops_jiucai1",
+"sound": "grass"
+},
+"dream:crops_jiucai2": {
+"netease_model": "dream:crops_jiucai2",
+"sound": "grass"
+},
+"dream:crops_qingjiao0": {
+"netease_model": "dream:crops_qingjiao0",
+"sound": "grass"
+},
+"dream:crops_qingjiao1": {
+"netease_model": "dream:crops_qingjiao1",
+"sound": "grass"
+},
+"dream:crops_qingjiao2": {
+"netease_model": "dream:crops_qingjiao2",
+"sound": "grass"
+},
+"dream:crops_wosun0": {
+"netease_model": "dream:crops_wosun0",
+"sound": "grass"
+},
+"dream:crops_wosun1": {
+"netease_model": "dream:crops_wosun1",
+"sound": "grass"
+},
+"dream:crops_wosun2": {
+"netease_model": "dream:crops_wosun2",
+"sound": "grass"
+},
+"dream:crops_yangcong0": {
+"netease_model": "dream:crops_yangcong0",
+"sound": "grass"
+},
+"dream:crops_yangcong1": {
+"netease_model": "dream:crops_yangcong1",
+"sound": "grass"
+},
+"dream:crops_yangcong2": {
+"netease_model": "dream:crops_yangcong2",
+"sound": "grass"
+},
+"dream:crops_caomei0": {
+"netease_model": "dream:crops_caomei0",
+"sound": "grass"
+},
+"dream:crops_caomei1": {
+"netease_model": "dream:crops_caomei1",
+"sound": "grass"
+},
+"dream:crops_caomei2": {
+"netease_model": "dream:crops_caomei2",
+"sound": "grass"
+},
+"dream:crops_putao0": {
+"netease_model": "dream:crops_putao0",
+"sound": "grass"
+},
+"dream:crops_putao1": {
+"netease_model": "dream:crops_putao1",
+"sound": "grass"
+},
+"dream:crops_putao2": {
+"netease_model": "dream:crops_putao2",
+"sound": "grass"
+},
+"dream:crops_qiukui0": {
+"netease_model": "dream:crops_qiukui0",
+"sound": "grass"
+},
+"dream:crops_qiukui1": {
+"netease_model": "dream:crops_qiukui1",
+"sound": "grass"
+},
+"dream:crops_qiukui2": {
+"netease_model": "dream:crops_qiukui2",
+"sound": "grass"
+},
+"dream:tree_zaoshu": {
+"netease_model": "dream:tree_zaoshu",
+"sound": "wood"
+},
+"dream:tree_pingguoshu": {
+"netease_model": "dream:tree_pingguoshu",
+"sound": "wood"
+},
+"dream:sapling_zaoshu": {
+"netease_model": "dream:sapling_zaoshu",
+"sound": "wood"
+},
+"dream:sapling_pingguoshu": {
+"netease_model": "dream:sapling_pingguoshu",
+"sound": "wood"
+},
+"dream:tree_mangguoshu": {
+"netease_model": "dream:tree_mangguoshu",
+"sound": "wood"
+},
+"dream:tree_mangguoshu0": {
+"netease_model": "dream:tree_mangguoshu0",
+"sound": "wood"
+},
+"dream:tree_pingguoshu0": {
+"netease_model": "dream:tree_pingguoshu0",
+"sound": "wood"
+},
+"dream:tree_zaoshu0": {
+"netease_model": "dream:tree_zaoshu0",
+"sound": "wood"
+},
+"dream:tree_ningmengshu0": {
+"netease_model": "dream:tree_ningmengshu0",
+"sound": "wood"
+},
+"dream:tree_ningmengshu": {
+"netease_model": "dream:tree_ningmengshu",
+"sound": "wood"
+},
+"dream:tree_taoshu0": {
+"netease_model": "dream:tree_taoshu0",
+"sound": "wood"
+},
+"dream:tree_taoshu": {
+"netease_model": "dream:tree_taoshu",
+"sound": "wood"
+},
+"dream:tree_pipashu0": {
+"netease_model": "dream:tree_pipashu0",
+"sound": "wood"
+},
+"dream:tree_pipashu": {
+"netease_model": "dream:tree_pipashu",
+"sound": "wood"
+},
+"dream:tree_yingtaoshu": {
+    "netease_model": "dream:tree_yingtaoshu",
+    "sound": "wood"
+    },
+    "dream:tree_yingtaoshu0": {
+        "netease_model": "dream:tree_yingtaoshu0",
+        "sound": "wood"
+        },
+"dream:sapling_mangguoshu": {
+"netease_model": "dream:sapling_mangguoshu",
+"sound": "wood"
+},
+"dream:sapling_ningmengshu": {
+"netease_model": "dream:sapling_ningmengshu",
+"sound": "wood"
+},
+"dream:sapling_taoshu": {
+"netease_model": "dream:sapling_taoshu",
+"sound": "wood"
+},
+"dream:sapling_yingtaoshu": {
+    "netease_model": "dream:sapling_yingtaoshu",
+    "sound": "wood"
+    },
+"dream:sapling_pipashu": {
+"netease_model": "dream:sapling_pipashu",
+"sound": "wood"
+},
+"dream:block_shuijing": {
+"netease_model": "dream:block_shuijing",
+"sound": "wood"
+},
+"dream:jingxiahezi0": {
+"netease_model": "dream:jingxiahezi0",
+"sound": "wood"
+},
+"dream:jingxiahezi1": {
+"netease_model": "dream:jingxiahezi1",
+"sound": "wood"
+},
+"dream:qiqiushu": {
+"netease_model": "dream:qiqiushu",
+"sound": "wood"
+},
+"dream:block_lianyaoguo0": {
+"netease_model": "dream:block_lianyaoguo0",
+"sound": "wood"
+},
+"dream:block_lianyaoguo1": {
+"netease_model": "dream:block_lianyaoguo1",
+"sound": "wood"
+},
+"dream:block_lianyaoguo2": {
+"netease_model": "dream:block_lianyaoguo2",
+"sound": "wood"
+},
+"dream:block_lianyaoguo3": {
+"netease_model": "dream:block_lianyaoguo3",
+"sound": "wood"
+},
+"dream:block_lianyaoguo4": {
+"netease_model": "dream:block_lianyaoguo4",
+"sound": "wood"
+},
+"dream:block_lianyaoguo5": {
+"netease_model": "dream:block_lianyaoguo5",
+"sound": "wood"
+},
+"dream:block_lianyaoguo6": {
+"netease_model": "dream:block_lianyaoguo6",
+"sound": "wood"
+},
+"dream:dream_guanggao": {
+"netease_model": "dream:dream_guanggao",
+"sound": "wood"
+},
+"dream:heitu": {
+"netease_model": "dream:heitu",
+"sound": "grass"
+},
+"dream:crops_boluo0": {
+"netease_model": "dream:crops_boluo0",
+"sound": "grass"
+},
+"dream:crops_boluo1": {
+"netease_model": "dream:crops_boluo1",
+"sound": "grass"
+},
+"dream:crops_boluo2": {
+"netease_model": "dream:crops_boluo2",
+"sound": "grass"
+},
+"dream:suijichuansongmen": {
+"netease_model": "dream:suijichuansongmen",
+"sound": "wood"
+},
+"dream:tree_youzishu0": {
+"netease_model": "dream:tree_youzishu",
+"sound": "wood"
+},
+"dream:tree_youzishu": {
+"netease_model": "dream:tree_youzishu0",
+"sound": "wood"
+},
+"dream:sapling_youzishu": {
+"netease_model": "dream:sapling_youzishu",
+"sound": "wood"
+},
+"dream:tree_youzishu0": {
+"netease_model": "dream:tree_youzishu0",
+"sound": "wood"
+},
+"dream:tree_youzishu": {
+"netease_model": "dream:tree_youzishu",
+"sound": "wood"
+},
+"dream:sapling_lishu": {
+"netease_model": "dream:sapling_lishu",
+"sound": "wood"
+},
+"dream:tree_lishu0": {
+"netease_model": "dream:tree_lishu0",
+"sound": "wood"
+},
+"dream:tree_lishu": {
+"netease_model": "dream:tree_lishu",
+"sound": "wood"
+},
+"dream:sapling_shiliushu": {
+"netease_model": "dream:sapling_shiliushu",
+"sound": "wood"
+},
+"dream:tree_shiliushu0": {
+"netease_model": "dream:tree_shiliushu0",
+"sound": "wood"
+},
+"dream:tree_shiliushu": {
+"netease_model": "dream:tree_shiliushu",
+"sound": "wood"
+}
+}

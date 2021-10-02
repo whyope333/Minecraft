@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"geometry.dream_armor_cs": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0.5, 0],
+		"bones": [
+			{
+				"name": "head",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0]},
+					{"origin": [3, 31, -1], "size": [1, 5, 1], "uv": [0, 36]},
+					{"origin": [-4, 31, -1], "size": [1, 5, 1], "uv": [0, 36]}
+				]
+			}
+		]
+	}
+}

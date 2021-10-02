@@ -1,0 +1,63 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dream_qie.jingzhi": {
+			"loop": true,
+			"animation_length": 0.44,
+			"bones": {
+				"bone3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.44": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.dream_qie.yidong": {
+			"animation_length": 26.9,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"bone2": {
+					"rotation": {
+						"0.0": ["0+math.cos(query.anim_time * 38.17)*-5", 0, 0],
+						"20.64": ["0+math.cos(query.anim_time * 38.17)", 0, 0],
+						"26.88": ["0+math.cos(query.anim_time * 38.17)", 0, 0]
+					}
+				},
+				"bone4": {
+					"rotation": {
+						"0.0": ["-2.5+math.cos(query.anim_time * -38.17)*5", 0, 0],
+						"20.64": ["0+math.cos(query.anim_time * -38.17)", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.dream_qie.gongji": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"bone6": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.56": [5, 0, 0],
+						"1.04": [0, 0, 0]
+					}
+				},
+				"bone5": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.56": [0, 0, 17.5],
+						"1.04": [0, 0, 0]
+					}
+				},
+				"bone3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.56": [0, 0, -17.5],
+						"1.04": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dream_egui.jingzhi": {
+			"loop": true,
+			"animation_length": 0.52,
+			"bones": {
+				"bone8": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5167": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.dream_egui.gongji": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"bone7": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5167": [5, 0, 0],
+						"1.0333": [0, 0, 0]
+					}
+				},
+				"bone20": {
+					"rotation": {
+						"0.0": [0, 0, 2.5],
+						"0.5167": [-7.5, 2.5, 1.25],
+						"1.0333": [0, 0, 0]
+					}
+				},
+				"bone21": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5167": [5, 0, 0],
+						"1.0333": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.dream_egui.yidong": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"bone8": {
+					"rotation": [0, "-20+math.cos(query.anim_time * 38.17)*-30", 0]
+				},
+				"bone10": {
+					"rotation": [0, "20+math.cos(query.anim_time * -38.17)*-30", 0]
+				},
+				"bone12": {
+					"rotation": [0, "30+math.cos(query.anim_time * -38.17)*30", 0]
+				},
+				"bone14": {
+					"rotation": [0, "-30+math.cos(query.anim_time * 38.17)*30", 0]
+				}
+			}
+		}
+	}
+}

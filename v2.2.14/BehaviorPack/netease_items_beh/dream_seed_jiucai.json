@@ -1,0 +1,18 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:seed_jiucai",
+"register_to_create_menu": true,
+"category": "Custom"
+},
+"components": {
+"minecraft:max_stack_size": 64,
+"minecraft:seed": {
+    "crop_result": "dream:crops_jiucai0",
+    "plant_at": "minecraft:farmland"
+    }
+}
+}
+}
+}

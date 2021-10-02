@@ -1,0 +1,38 @@
+{
+    "Account": "1405350386@qq.com",
+    "AssertCacheDir": "C:\\MCStudioDownload\\EngineAssert",
+    "BlockNums": [
+        0,
+        0
+    ],
+    "BornPoint": [
+        0,
+        0,
+        0
+    ],
+    "CreateNew": true,
+    "DCWebUrl": "https://x19qadcweb.nie.netease.com",
+    "EditAddOnPaths": [
+
+    ],
+    "EditLogFilePath": "C:\\MCStudioDownload\\work\\editor\\edit.log",
+    "EditMaterialPaths": [
+
+    ],
+    "EditName": "服务器实体",
+    "EditType": 2,
+    "ElkUrl": "https://x19mclexpr.nie.netease.com/client-log",
+    "GameType": 1,
+    "Id": null,
+    "IsMap": false,
+    "SaveBackAddOnPath": "C:\\MCStudioDownload\\work\\1405350386@qq.com\\Cpp\\AddOn\\298550caf2d8443294f9152f3aa81f51",
+    "SaveBackMapPath": null,
+    "Seed": "",
+    "ServerName": "EXPR",
+    "ShowGpuDriverTips": false,
+    "ShowGuide": false,
+    "StudioPort": 11038,
+    "UserId": "126",
+    "UserName": "为一",
+    "WorldType": 1
+}

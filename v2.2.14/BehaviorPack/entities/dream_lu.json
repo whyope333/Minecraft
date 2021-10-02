@@ -1,0 +1,132 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dream:lu",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+	  "runtime_identifier": "dream:lu"
+    },
+	
+	"component_groups": {
+	  },
+	  
+	  
+	  
+	
+    "components": {
+      "minecraft:nameable": {
+      },
+
+      
+      "minecraft:type_family": {
+        "family": [ "lu", "mob" ]
+      },
+      "minecraft:collision_box": {
+        "width": 1.8,
+        "height": 2.6
+      },
+     
+      
+	  "minecraft:behavior.float": {
+        "priority": 0
+      },
+     
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:health": {
+        "value": 50,
+        "max": 50
+      },
+	  "minecraft:behavior.panic": {
+        "priority": 3,
+        "speed_multiplier": 1.8
+      },
+	  "minecraft:behavior.avoid_mob_type": {
+          "priority": 3,
+          "entity_types": [
+            {
+              "filters": {
+				"any_of": [
+					{"test": "is_family","subject": "other","value": "player"}
+					]
+					},
+              "max_dist": 64,
+              "walk_speed_multiplier": 0.83,
+              "sprint_speed_multiplier": 1.8
+            }
+          ],
+		  "max_dist": 8,
+		  "max_flee": 18
+        },
+      
+	  
+	  
+	  
+	  
+	  
+	  "minecraft:movement": {
+          "value": 0.25
+        },
+		"minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {
+        
+      },
+     
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      
+      "minecraft:loot": {
+        "table": "loot_tables/dream_entities/dream_lu.json"
+      },
+	"minecraft:scale": {
+          "value": 0.4
+        },
+      
+	"minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "is_brightness", "subject": "self", "operator": "==", "value": 0.5 },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      
+      
+	  
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      },
+      
+      
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    }
+
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dream:huolong",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+	  "runtime_identifier": "dream:huolong"
+    },
+  
+    
+	"component_groups": {
+	  },
+    
+    
+    "components": {
+      "minecraft:nameable": {
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+      },
+      
+      "minecraft:type_family": {
+        "family": [ "huolong", "monster" ]
+      },
+      "minecraft:collision_box": {
+        "width": 2.8,
+        "height": 5.6
+      },
+     
+      "minecraft:boss": {
+        "name": "火龙",
+        "hud_range": 32
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:can_fly": {
+      },
+      "minecraft:follow_range": {
+        "value": 64,
+        "max": 64
+      },
+
+	  
+      "minecraft:health": {
+        "value": 150,
+        "max": 150	
+      },
+      
+	 
+      /*
+      "minecraft:shooter": {
+        "type": "smallfireball",
+        "def": "minecraft:small_fireball"
+      },
+      "minecraft:behavior.ranged_attack": {
+        "priority": 1,
+        "attack_radius": 64,
+        "charge_shoot_trigger": 2,
+        "charge_charged_trigger": 1
+      },
+      */
+      
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": false
+        }
+      },
+      
+      
+      
+      "minecraft:movement.glide": {
+        "start_speed": 0.1,
+        "speed_when_turning": 0.2
+      },
+     
+      
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "within_radius": 64,
+        "reselect_targets": true,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            "max_dist": 64
+          }
+        ],
+        "must_see": false,
+        "must_see_forget_duration": 0.5,
+        "scan_interval": 20,
+        "target_search_height": 80.0
+      },
+      
+      "minecraft:behavior.swoop_attack": {
+        "priority": 1,
+        "speed_multiplier": 1.5,
+        "delay_range": [ 8.0, 15.0 ]
+      },
+      
+      "minecraft:behavior.circle_around_anchor": {
+        "priority": 3,
+        "radius_range": [ 5.0, 15.0 ],
+        "radius_change_chance": 250,
+        "height_above_target_range": [ 20.0, 40.0 ],
+        "height_offset_range": [ -4.0, 5.0 ],
+        "height_change_chance": 350,
+        "goal_radius": 1.0
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      
+      "minecraft:loot": {
+        "table": "loot_tables/dream_entities/dream_huolong.json"
+      },
+	"minecraft:scale": {
+          "value": 0.6
+        },
+      
+        "minecraft:attack": {
+          "damage": 6
+        },
+        
+        "minecraft:breathable": {
+          "total_supply": 15,
+          "suffocate_time": 0,
+          "breathes_air": true,
+          "breathes_water": false
+        },
+      
+        "minecraft:movement": {
+          "value": 1.5
+        },
+      
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    }
+
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

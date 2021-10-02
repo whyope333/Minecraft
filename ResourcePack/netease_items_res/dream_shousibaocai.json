@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dream:shousibaocai",
+            "category": "Nature"
+        },
+        "components": {
+            "minecraft:icon": "dream:shousibaocai",
+            "minecraft:use_animation": "eat"
+        }
+    }
+}

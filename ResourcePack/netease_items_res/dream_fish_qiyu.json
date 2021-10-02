@@ -1,0 +1,11 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:fish_qiyu"
+},
+"components": {
+"minecraft:icon": "dream:fish_qiyu"
+}
+}
+}

@@ -1,0 +1,35 @@
+{
+"format_version": "1.10.0",
+"minecraft:block": {
+"description": {
+"identifier": "dream:tree_zaoshu",
+"register_to_creative_menu": false,
+"is_experimental": false
+},
+"components": {
+"minecraft:block_light_absorption": {
+"value": 0
+},
+"netease:render_layer": {
+"value": "alpha"
+},
+
+  "minecraft:loot": {
+  "table": "loot_tables/blocks/tree_zaoshu.json"
+  },
+  "minecraft:destroy_time": {
+    "value": 2.5
+},
+  "netease:aabb": {
+    "collision": {
+    "min": [0.25, 0.0, 0.25],
+    "max": [0.75, 1.0, 0.75]
+    },
+    "clip": {
+    "min": [0.25, 0.0, 0.25],
+    "max": [0.75, 1.0, 0.75]
+    }
+    }
+}
+}
+}

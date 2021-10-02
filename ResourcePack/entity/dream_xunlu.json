@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:xunlu",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dream_xunlu"
+      },
+      "geometry": {
+        "default": "geometry.dream_xunlu"
+      },
+      "spawn_egg": {
+        "base_color":"#FFFFFF",
+        "overlay_color":"#00FF00"
+      },
+      "scripts": {
+        "animate": [
+         //"look_at_target",
+		 {"move": "query.ground_speed > 0.1"},
+		 {"idle": "query.ground_speed < 0.1"}
+        ]
+      },
+      "animations": {
+		"move": "animation.dream.xunlu_move",
+		"idle": "animation.dream.xunlu_stand",
+		"look_at_target": "animation.common.look_at_target"   
+      },
+      "render_controllers": [ 
+	  "controller.render.dream_entity" 
+	  ]
+      
+    }
+  }
+}

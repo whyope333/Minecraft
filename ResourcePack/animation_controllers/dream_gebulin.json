@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.dream_gebulin.attack": {
+      "states": {
+        "default": {
+          "transitions": [
+            { "attack": "query.is_delayed_attacking" }
+          ]
+        },
+        "attack": {
+          "animations": [ "attack" ],
+          "transitions": [
+            { "default": "!query.is_delayed_attacking" }
+          ]
+        }
+      }
+    }
+  }
+}

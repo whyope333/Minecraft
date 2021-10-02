@@ -1,0 +1,22 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:zhumengguanlizhijian",
+"register_to_create_menu": true,
+"custom_item_type": "weapon",
+"category": "Custom"
+},
+"components": {
+"minecraft:max_stack_size": 1,
+"minecraft:max_damage":20000,
+"netease:weapon":{
+    "type":"sword",
+    "level":5,
+    "speed":0,
+    "attack_damage":3000,
+    "enchantment":0
+  }
+}
+}
+}

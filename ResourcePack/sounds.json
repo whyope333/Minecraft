@@ -1,0 +1,15 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "dream:laoshu": {
+        "volume": 0.6,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "laoshu",
+		  "hurt": "laoshu"
+        }
+      }
+	  
+	  }
+}
+}

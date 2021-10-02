@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "dream:luzi"
+      },
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "WWW",
+        "HHH",
+        " Y "
+      ],
+      "key": {
+        "W": {
+          "item": "minecraft:stick"
+        },
+        "H": {
+          "item": "minecraft:iron_ingot"
+        },
+        "Y": {
+            "item": "minecraft:campfire"
+          }
+      },
+      "result": {
+        "item": "dream:luzi"
+      }
+    }
+  }

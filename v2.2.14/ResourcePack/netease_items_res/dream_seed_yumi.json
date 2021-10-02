@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dream:seed_yumi"
+    },
+
+    "components": {
+      "minecraft:icon": "dream:seed_yumi",
+
+      "minecraft:render_offsets": "seeds"
+    }
+  }
+}

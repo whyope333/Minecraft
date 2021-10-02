@@ -1,0 +1,11 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:cookbook20"
+},
+"components": {
+"minecraft:icon": "dream:cookbook20"
+}
+}
+}

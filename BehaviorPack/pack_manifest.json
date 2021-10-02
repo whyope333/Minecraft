@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "",
+      "type": "data",
+      "uuid": "5e182a41-cea9-4602-b413-35d0158c257a",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "header": {
+    "description": "",
+    "name": "behavior_pack_WdJzttIe",
+    "uuid": "b5d8404b-ee0a-4670-ac70-7216d6291b52",
+    "version": [
+      0,
+      0,
+      56
+    ]
+  }
+}

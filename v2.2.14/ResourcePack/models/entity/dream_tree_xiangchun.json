@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.tree_xiangchun",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 6,
+				"visible_bounds_offset": [0, 3, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{"origin": [-16.44365, 0, 0], "size": [32, 96, 0], "uv": [64, 64]}
+					]
+				},
+				{
+					"name": "bone2",
+					"pivot": [0, 0, 23],
+					"rotation": [0, -45, 0],
+					"cubes": [
+						{"origin": [-32, 0, 7.44365], "size": [32, 96, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

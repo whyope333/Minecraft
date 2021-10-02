@@ -1,0 +1,9 @@
+{
+    "category":[
+        {
+            "name":"dream", 
+            "labelText":"梦境", 
+            "icon": "textures/icon/logo" 
+        }
+    ]
+}

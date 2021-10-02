@@ -1,0 +1,11 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:armor_jieliuzi0"
+},
+"components": {
+"minecraft:icon": "dream:armor_jieliuzi0"
+}
+}
+}

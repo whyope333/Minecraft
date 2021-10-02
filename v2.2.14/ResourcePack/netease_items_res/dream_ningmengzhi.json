@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dream:ningmengzhi",
+            "category": "Nature"
+        },
+        "components": {
+            "minecraft:icon": "dream:ningmengzhi",
+            "minecraft:use_animation": "eat"
+        }
+    }
+}

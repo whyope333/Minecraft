@@ -1,0 +1,14 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:tool_huangjinyugan",
+"register_to_create_menu": true,
+"category": "dream"
+},
+"components": {
+"minecraft:max_stack_size": 1,
+"minecraft:max_damage":200
+}
+}
+}

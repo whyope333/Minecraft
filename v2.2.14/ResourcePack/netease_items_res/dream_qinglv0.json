@@ -1,0 +1,11 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:qinglv0"
+},
+"components": {
+"minecraft:icon": "dream:qinglv0"
+}
+}
+}

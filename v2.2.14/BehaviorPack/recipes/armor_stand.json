@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:armor_stand"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "///",
+      " / ",
+      "/_/"
+    ],
+    "key": {
+      "/": {
+        "item": "minecraft:stick"
+      },
+      "_": {
+      	"item": "dream:banitem0",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:armor_stand"
+    }
+  }
+}

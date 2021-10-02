@@ -1,0 +1,11 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:tool_tieyugan"
+},
+"components": {
+"minecraft:icon": "dream:tool_tieyugan"
+}
+}
+}

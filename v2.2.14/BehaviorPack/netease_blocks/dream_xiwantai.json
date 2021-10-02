@@ -1,0 +1,65 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "dream:xiwantai",
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:block_light_emission": {
+                "emission": 0.0
+            },
+            "minecraft:block_light_absorption": {
+                "value": 0
+            },
+            "netease:render_layer": {
+                "value": "opaque"
+            },
+            "minecraft:map_color": {
+                "color": "#000000"
+            },
+            "minecraft:destroy_time": {
+                "value": 0.0
+            },
+           
+            "minecraft:explosion_resistance": {
+                "value": 0.0
+            },
+            "netease:solid": {
+                "value": true
+            },
+            "netease:pathable": {
+                "value": false
+            },
+            "netease:face_directional": {
+                "type": "direction"
+            },
+            "netease:aabb": {
+                "collision": {
+                    "min": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "max": [
+                        2.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "clip": {
+                    "min": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "max": [
+                        2.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            }
+        }
+    }
+}

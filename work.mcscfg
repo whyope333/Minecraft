@@ -1,0 +1,51 @@
+{
+  "UID": "298550caf2d8443294f9152f3aa81f51",
+  "Language": 0,
+  "Type": 7,
+  "Versions": [],
+  "JavaType": 7,
+  "Name": "服务器实体",
+  "UpdateTime": "2021-10-02T11:44:57.442665+08:00",
+  "IconName": null,
+  "Md5": null,
+  "CloudMd5": null,
+  "TemplateType": 0,
+  "Difficulty": 1.0,
+  "Description": "description.txt",
+  "CloudItemsId": null,
+  "IsCompetive": false,
+  "GameId": null,
+  "VersionSubDirs": null,
+  "PreComponentIds": null,
+  "IsPc": false,
+  "IsPreCom": false,
+  "CustomWorkDir": null,
+  "ImportHistoryList": [
+    {
+      "Name": "入门脚本模板",
+      "Date": "2020/12/17 23:04"
+    }
+  ],
+  "OpenEditType": 2,
+  "EditMapUID": "",
+  "EditMapType": 1,
+  "TestMapUID": "aed6eaa3816d44188ad49c273d4431cc",
+  "TestJavaMapType": 0,
+  "TestJavaGameVersion": "",
+  "TestJavaGameMode": 0,
+  "TestJavaType": 7,
+  "TestBonusChest": false,
+  "TestAllowCheat": true,
+  "TestGenerateBuildings": true,
+  "TestSeed": "",
+  "TestCppMapType": 2,
+  "TestDifficulty": 2,
+  "TestCppGameMode": 1,
+  "TestExperimentalGameplay": false,
+  "TestStartWithMap": false,
+  "SelectComponents": [
+    "168f0ebc4ff44f8cb9fef182e4110057",
+    "298550caf2d8443294f9152f3aa81f51"
+  ],
+  "isSlim": false
+}

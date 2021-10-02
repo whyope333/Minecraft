@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:qingwa",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dream_qingwa"
+      },
+      "geometry": {
+        "default": "geometry.dream_qingwa"
+      },
+      "spawn_egg": {
+        "base_color":"#FFFFFF",
+        "overlay_color":"#00FF00"
+      },
+      "scripts": {
+        "animate": [
+         "look_at_target",
+         {"attack": "variable.attack_time > 0.0"},
+         //{"attack": "query.is_delayed_attacking"},
+		 {"move": "query.modified_move_speed"},
+		 {"stand": "!query.modified_move_speed"}
+        ]
+      },
+      "animations": {
+		"attack": "animation.dream_qingwa.gongji",
+		"move": "animation.dream_qingwa.yidong",
+		"stand": "animation.dream_qingwa.jingzhi",
+		"look_at_target": "animation.common.look_at_target"   
+      },
+      "render_controllers": [ 
+	  "controller.render.dream_entity" 
+	  ]
+      
+    }
+  }
+}

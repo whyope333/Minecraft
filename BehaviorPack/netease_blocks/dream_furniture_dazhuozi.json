@@ -1,0 +1,35 @@
+{
+"format_version": "1.10.0",
+"minecraft:block": {
+"description": {
+"identifier": "dream:furniture_dazhuozi",
+"register_to_creative_menu": true,
+"is_experimental": false
+},
+"components": {
+"minecraft:block_light_absorption": {
+"value": 0
+},
+"netease:render_layer": {
+"value": "alpha"
+},
+"netease:face_directional": {
+    "type": "direction"
+},
+"netease:block_entity": {
+    "tick": true,
+    "movable": false
+    },
+"netease:aabb": {
+"collision": {
+"min": [0.0, 0.0, 0.0],
+"max": [2.0, 1.0, 3.0]
+},
+"clip": {
+"min": [0.0, 0.0, 0.0],
+"max": [2.0, 1.0, 3.0]
+}
+}
+}
+}
+}

@@ -1,0 +1,211 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dream:laoshu",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+	  "runtime_identifier": "dream:laoshu"
+    },
+	
+	"component_groups": {
+	"minecraft:laoshu_angry": {
+        "minecraft:angry": {
+          "duration": 25,
+          "broadcast_anger": true,
+          "broadcast_range": 20,
+          "calm_event": {
+            "event": "minecraft:laoshu_calm",
+            "target": "self"
+          }
+        }
+      }
+	  },
+	  
+	  
+	  
+	
+    "components": {
+      "minecraft:nameable": {
+      },
+
+      
+      "minecraft:type_family": {
+        "family": [ "laoshu", "mob" ]
+      },
+      "minecraft:collision_box": {
+        "width": 7.6,
+        "height": 7.6
+      },
+      "minecraft:on_target_acquired": {
+          "event": "minecraft:become_angry",
+          "target": "self"
+        },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_damage_blocks": true
+      },
+	  "minecraft:behavior.float": {
+        "priority": 2
+      },
+      "minecraft:annotation.break_door": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+	  "minecraft:behavior.panic": {
+        "priority": 3,
+        "speed_multiplier": 1.75
+      },
+	  "minecraft:behavior.avoid_mob_type": {
+          "priority": 3,
+          "entity_types": [
+            {
+              "filters": {
+				"any_of": [
+					{"test": "is_family","subject": "other","value": "player"},
+					{"test": "is_family","subject": "other","value": "cat"}
+					]
+					},
+              "max_dist": 64,
+              "walk_speed_multiplier": 0.83,
+              "sprint_speed_multiplier": 1.75
+            }
+          ],
+		  "max_dist": 8,
+		  "max_flee": 18
+        },
+      
+	  
+	  
+	  
+	  
+	  
+	  "minecraft:movement": {
+          "value": 0.25
+        },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:attack": {
+        "damage": 2
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/dream_entities/dream_laoshu.json"
+      },
+	"minecraft:scale": {
+          "value": 0.03
+        },
+      
+	"minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "is_brightness", "subject": "self", "operator": "==", "value": 0.5 },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      
+      "minecraft:behavior.melee_attack": {
+        "priority": 2,
+        "speed_multiplier": 1.45,
+        "track_target": false
+      },
+	  "minecraft:behavior.flee_sun":{
+		"priority": 0,
+		"speed_multiplier": 1.35
+	  },
+	  "minecraft:behavior.find_cover": {
+          "priority": 0,
+          "speed_multiplier": 1.35,
+          "cooldown_time": 0.0
+        },
+      "minecraft:break_blocks": {
+        "breakable_blocks": [
+          "cake",
+		  "planks",
+		  "beetroot",
+		  "carrots",
+		  "potatoes",
+		  "wheat",
+		  "fence"
+        ]
+      },
+	  "minecraft:preferred_path" : {
+        "max_fall_blocks" : 1,
+        "jump_cost" : 5,
+        "default_block_cost" : 100,
+        "preferred_path_blocks" : [
+          { 
+            "blocks" : [ 
+			  "cake",
+			  "planks",
+			  "beetroot",
+			  "carrots",
+			  "potatoes",
+			  "wheat",
+			  "fence"
+            ]
+          }
+        ]
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 5,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    },
+	"events": {
+      "minecraft:become_angry": {
+        
+            "add": {
+              "component_groups": [
+                "minecraft:laoshu_angry"
+              ]
+            }
+          },
+	  "minecraft:laoshu_calm": {
+            "remove": {
+              "component_groups": [
+                "minecraft:laoshu_angry"
+              ]
+            }
+          }
+        
+      }
+
+  }
+}

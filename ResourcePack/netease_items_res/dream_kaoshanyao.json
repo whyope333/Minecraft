@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dream:kaoshanyao",
+            "category": "Nature"
+        },
+        "components": {
+            "minecraft:icon": "dream:kaoshanyao",
+            "minecraft:use_animation": "eat"
+        }
+    }
+}

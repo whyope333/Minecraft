@@ -1,0 +1,402 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "dream:tanwei": {
+            "textures": "textures/blocks/huowutanwei"
+        },
+        "dream:xiwantai": {
+            "textures": "textures/blocks/xiwantai"
+        },
+        "dream:luzi": {
+            "textures": "textures/blocks/luzi"
+        },
+        "dream:crops_yumi0": {
+            "textures": "textures/blocks/crops/yumi1"
+        },
+        "dream:crops_yumi1": {
+            "textures": "textures/blocks/crops/yumi2"
+        },
+        "dream:crops_yumi2": {
+            "textures": "textures/blocks/crops/yumi3"
+        },
+        "dream:crops_baicai0": {
+            "textures": "textures/blocks/crops/crops_baicai0"
+            },
+            "dream:crops_baicai1": {
+            "textures": "textures/blocks/crops/crops_baicai1"
+            },
+            "dream:crops_baicai2": {
+            "textures": "textures/blocks/crops/crops_baicai2"
+            },
+            "dream:crops_xihongshi1": {
+                "textures": "textures/blocks/crops/crops_xihongshi1"
+                },
+                "dream:crops_xihongshi2": {
+                "textures": "textures/blocks/crops/crops_xihongshi2"
+                },
+                "dream:crops_xihongshi3": {
+                "textures": "textures/blocks/crops/crops_xihongshi3"
+                },
+"dream:crops_lajiao1": {
+"textures": "textures/blocks/crops/crops_lajiao1"
+},
+"dream:crops_lajiao2": {
+"textures": "textures/blocks/crops/crops_lajiao2"
+},
+"dream:crops_lajiao3": {
+"textures": "textures/blocks/crops/crops_lajiao3"
+},
+"dream:crops_qiezi1": {
+"textures": "textures/blocks/crops/crops_qiezi1"
+},
+"dream:crops_qiezi2": {
+"textures": "textures/blocks/crops/crops_qiezi2"
+},
+"dream:crops_qiezi3": {
+"textures": "textures/blocks/crops/crops_qiezi3"
+},
+"dream:crops_donggua0": {
+"textures": "textures/blocks/crops/crops_donggua1"
+},
+"dream:crops_donggua1": {
+"textures": "textures/blocks/crops/crops_donggua2"
+},
+"dream:crops_donggua2": {
+"textures": "textures/blocks/crops/crops_donggua3"
+},
+"dream:crops_huanggua1": {
+"textures": "textures/blocks/crops/crops_huanggua1"
+},
+"dream:crops_huanggua2": {
+"textures": "textures/blocks/crops/crops_huanggua2"
+},
+"dream:crops_huanggua3": {
+"textures": "textures/blocks/crops/crops_huanggua3"
+},
+"dream:crops_shuidao1": {
+"textures": "textures/blocks/crops/crops_shuidao1"
+},
+"dream:crops_shuidao2": {
+"textures": "textures/blocks/crops/crops_shuidao2"
+},
+"dream:crops_shuidao3": {
+"textures": "textures/blocks/crops/crops_shuidao3"
+},
+"dream:crops_shanyao1": {
+"textures": "textures/blocks/crops/crops_shanyao1"
+},
+"dream:crops_shanyao2": {
+"textures": "textures/blocks/crops/crops_shanyao2"
+},
+"dream:crops_shanyao3": {
+"textures": "textures/blocks/crops/crops_shanyao3"
+},
+"dream:crops_qincai1": {
+"textures": "textures/blocks/crops/crops_qincai1"
+},
+"dream:crops_qincai2": {
+"textures": "textures/blocks/crops/crops_qincai2"
+},
+"dream:crops_qincai3": {
+"textures": "textures/blocks/crops/crops_qincai3"
+},
+"dream:crops_juanxincai1": {
+"textures": "textures/blocks/crops/crops_juanxincai1"
+},
+"dream:crops_juanxincai2": {
+"textures": "textures/blocks/crops/crops_juanxincai2"
+},
+"dream:crops_juanxincai3": {
+"textures": "textures/blocks/crops/crops_juanxincai3"
+},
+"dream:crops_bailuobo0": {
+"textures": "textures/blocks/crops/crops_bailuobo1"
+},
+"dream:crops_bailuobo1": {
+"textures": "textures/blocks/crops/crops_bailuobo2"
+},
+"dream:crops_bailuobo2": {
+"textures": "textures/blocks/crops/crops_bailuobo3"
+},
+"dream:qiqiu": {
+"textures": "textures/blocks/qiqiu"
+},
+"dream:crops_xiaomai1": {
+"textures": "textures/blocks/crops/crops_xiaomai1"
+},
+"dream:crops_xiaomai2": {
+"textures": "textures/blocks/crops/crops_xiaomai2"
+},
+"dream:crops_xiaomai3": {
+"textures": "textures/blocks/crops/crops_xiaomai3"
+},
+"dream:crops_huayecai1": {
+"textures": "textures/blocks/crops/crops_huayecai1"
+},
+"dream:crops_huayecai2": {
+"textures": "textures/blocks/crops/crops_huayecai2"
+},
+"dream:crops_huayecai3": {
+"textures": "textures/blocks/crops/crops_huayecai3"
+},
+"dream:furniture_bingxiang": {
+"textures": "textures/blocks/furniture/furniture_bingxiang"
+},
+"dream:furniture_guizi1": {
+"textures": "textures/blocks/furniture/furniture_guizi1"
+},
+"dream:furniture_guizi2": {
+"textures": "textures/blocks/furniture/furniture_guizi2"
+},
+"dream:furniture_zhiwujia": {
+"textures": "textures/blocks/furniture/furniture_zhiwujia"
+},
+"dream:furniture_dazhuozi": {
+"textures": "textures/blocks/furniture/furniture_dazhuozi"
+},
+"dream:furniture_diaogui": {
+"textures": "textures/blocks/furniture/furniture_diaogui"
+},
+"dream:furniture_yizi": {
+"textures": "textures/blocks/furniture/furniture_yizi"
+},
+"dream:furniture_guizi": {
+"textures": "textures/blocks/furniture/furniture_guizi"
+},
+"dream:furniture_xiaozhuozi": {
+"textures": "textures/blocks/furniture/furniture_xiaozhuozi"
+},
+"dream:manghe": {
+"textures": "textures/blocks/manghe"
+},
+"dream:furniture_bingxiang_item": {
+    "textures": "textures/blocks/furniture_items/furniture_bingxiang"
+    },
+    "dream:furniture_guizi1_item": {
+    "textures": "textures/blocks/furniture_items/furniture_guizi1"
+    },
+    "dream:furniture_guizi2_item": {
+    "textures": "textures/blocks/furniture_items/furniture_guizi2"
+    },
+    "dream:furniture_zhiwujia_item": {
+    "textures": "textures/blocks/furniture_items/furniture_zhiwujia"
+    },
+    "dream:furniture_dazhuozi_item": {
+    "textures": "textures/blocks/furniture_items/furniture_dazhuozi"
+    },
+    "dream:furniture_diaogui_item": {
+    "textures": "textures/blocks/furniture_items/furniture_diaogui"
+    },
+    "dream:furniture_yizi_item": {
+    "textures": "textures/blocks/furniture_items/furniture_yizi"
+    },
+    "dream:furniture_guizi_item": {
+    "textures": "textures/blocks/furniture_items/furniture_guizi"
+    },
+    "dream:furniture_xiaozhuozi_item": {
+    "textures": "textures/blocks/furniture_items/furniture_xiaozhuozi"
+    },
+    "dream:furniture_xiwantai_item": {
+        "textures": "textures/blocks/furniture_items/furniture_xiwantai"
+        },
+"dream:jiaozi": {
+"textures": "textures/blocks/jiaozi"
+},
+"dream:niannianyouyu": {
+"textures": "textures/blocks/niannianyouyu"
+},
+"dream:babaofan": {
+"textures": "textures/blocks/babaofan"
+},
+"dream:facaishu": {
+"textures": "textures/blocks/facaishu"
+},
+"dream:bianpao": {
+"textures": "textures/blocks/bianpao"
+},
+"dream:denglong": {
+"textures": "textures/blocks/denglong"
+},
+"dream:jiaozi_item": {
+"textures": "textures/blocks/jiaozi_item"
+},
+"dream:niannianyouyu_item": {
+"textures": "textures/blocks/niannianyouyu_item"
+},
+"dream:babaofan_item": {
+"textures": "textures/blocks/babaofan_item"
+},
+"dream:facaishu_item": {
+"textures": "textures/blocks/facaishu_item"
+},
+"dream:bianpao_item": {
+"textures": "textures/blocks/bianpao_item"
+},
+"dream:denglong_item": {
+"textures": "textures/blocks/denglong_item"
+},
+"dream:chuansongfangkuai": {
+"textures": "textures/blocks/chuansongfangkuai"
+},
+"dream:crops_hongyoucai0": {
+"textures": "textures/blocks/crops/crops_hongyoucai0"
+},
+"dream:crops_hongyoucai1": {
+"textures": "textures/blocks/crops/crops_hongyoucai1"
+},
+"dream:crops_hongyoucai2": {
+"textures": "textures/blocks/crops/crops_hongyoucai2"
+},
+"dream:crops_jiucai0": {
+"textures": "textures/blocks/crops/crops_jiucai0"
+},
+"dream:crops_jiucai1": {
+"textures": "textures/blocks/crops/crops_jiucai1"
+},
+"dream:crops_jiucai2": {
+"textures": "textures/blocks/crops/crops_jiucai2"
+},
+"dream:crops_qingjiao0": {
+"textures": "textures/blocks/crops/crops_qingjiao0"
+},
+"dream:crops_qingjiao1": {
+"textures": "textures/blocks/crops/crops_qingjiao1"
+},
+"dream:crops_qingjiao2": {
+"textures": "textures/blocks/crops/crops_qingjiao2"
+},
+"dream:crops_wosun0": {
+"textures": "textures/blocks/crops/crops_wosun0"
+},
+"dream:crops_wosun1": {
+"textures": "textures/blocks/crops/crops_wosun1"
+},
+"dream:crops_wosun2": {
+"textures": "textures/blocks/crops/crops_wosun2"
+},
+"dream:crops_yangcong0": {
+"textures": "textures/blocks/crops/crops_yangcong0"
+},
+"dream:crops_yangcong1": {
+"textures": "textures/blocks/crops/crops_yangcong1"
+},
+"dream:crops_yangcong2": {
+"textures": "textures/blocks/crops/crops_yangcong2"
+},
+"dream:crops_caomei0": {
+"textures": "textures/blocks/crops/crops_caomei0"
+},
+"dream:crops_caomei1": {
+"textures": "textures/blocks/crops/crops_caomei1"
+},
+"dream:crops_caomei2": {
+"textures": "textures/blocks/crops/crops_caomei2"
+},
+"dream:crops_putao0": {
+"textures": "textures/blocks/crops/crops_putao0"
+},
+"dream:crops_putao1": {
+"textures": "textures/blocks/crops/crops_putao1"
+},
+"dream:crops_putao2": {
+"textures": "textures/blocks/crops/crops_putao2"
+},
+"dream:crops_qiukui0": {
+"textures": "textures/blocks/crops/crops_qiukui0"
+},
+"dream:crops_qiukui1": {
+"textures": "textures/blocks/crops/crops_qiukui1"
+},
+"dream:crops_qiukui2": {
+"textures": "textures/blocks/crops/crops_qiukui2"
+},
+"dream:tree_zaoshu": {
+"textures": "textures/blocks/tree/tree_zaoshu"
+},
+"dream:tree_pingguoshu": {
+"textures": "textures/blocks/tree/tree_pingguoshu"
+},
+"dream:sapling_zaoshu": {
+"textures": "textures/blocks/tree/sapling_zaoshu"
+},
+"dream:sapling_pingguoshu": {
+"textures": "textures/blocks/tree/sapling_pingguoshu"
+},
+"dream:tree_mangguoshu": {
+"textures": "textures/blocks/tree/tree_mangguoshu"
+},
+"dream:tree_mangguoshu0": {
+"textures": "textures/blocks/tree/tree_mangguoshu"
+},
+"dream:tree_pingguoshu0": {
+"textures": "textures/blocks/tree/tree_pingguoshu"
+},
+"dream:tree_zaoshu0": {
+"textures": "textures/blocks/tree/tree_zaoshu"
+},
+"dream:tree_ningmengshu0": {
+"textures": "textures/blocks/tree/tree_ningmengshu"
+},
+"dream:tree_ningmengshu": {
+"textures": "textures/blocks/tree/tree_ningmengshu"
+},
+"dream:tree_taoshu0": {
+"textures": "textures/blocks/tree/tree_taoshu"
+},
+"dream:tree_taoshu": {
+"textures": "textures/blocks/tree/tree_taoshu"
+},
+"dream:tree_pipashu0": {
+"textures": "textures/blocks/tree/tree_pipashu"
+},
+"dream:tree_pipashu": {
+"textures": "textures/blocks/tree/tree_pipashu"
+},
+"dream:sapling_mangguoshu": {
+"textures": "textures/blocks/tree/sapling_mangguoshu"
+},
+"dream:sapling_ningmengshu": {
+"textures": "textures/blocks/tree/sapling_ningmengshu"
+},
+"dream:sapling_taoshu": {
+"textures": "textures/blocks/tree/sapling_taoshu"
+},
+"dream:sapling_pipashu": {
+"textures": "textures/blocks/tree/sapling_pipashu"
+},
+"dream:block_shuijing": {
+"textures": "textures/blocks/block_shuijing"
+},
+"dream:jingxiahezi0": {
+"textures": "textures/blocks/jingxiahezi0"
+},
+"dream:jingxiahezi1": {
+"textures": "textures/blocks/jingxiahezi0"
+},
+"dream:qiqiushu": {
+"textures": "textures/blocks/qiqiushu"
+},
+"dream:block_lianyaoguo0": {
+"textures": "textures/blocks/block_lianyaoguo0"
+},
+"dream:block_lianyaoguo1": {
+"textures": "textures/blocks/block_lianyaoguo1"
+},
+"dream:block_lianyaoguo2": {
+"textures": "textures/blocks/block_lianyaoguo2"
+},
+"dream:block_lianyaoguo3": {
+"textures": "textures/blocks/block_lianyaoguo3"
+},
+"dream:block_lianyaoguo4": {
+"textures": "textures/blocks/block_lianyaoguo4"
+},
+"dream:block_lianyaoguo5": {
+"textures": "textures/blocks/block_lianyaoguo5"
+},
+"dream:block_lianyaoguo6": {
+"textures": "textures/blocks/block_lianyaoguo6"
+}
+}
+}

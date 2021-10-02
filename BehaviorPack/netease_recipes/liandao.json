@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "dream:liandao"
+      },
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "HHW",
+        " W ",
+        "W  "
+      ],
+      "key": {
+        "W": {
+          "item": "minecraft:stick"
+        },
+        "H": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "result": {
+        "item": "dream:liandao"
+      }
+    }
+  }

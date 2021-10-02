@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dream:huolong",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dream_huolong"
+      },
+      "geometry": {
+        "default": "geometry.dream_huolong"
+      },
+      "spawn_egg": {
+        "base_color":"#FFFFFF",
+        "overlay_color":"#00FF00"
+      },
+      "scripts": {
+        "animate": [
+         "look_at_target",
+		 {"move": "query.can_fly"}
+        ]
+      },
+      "animations": {
+    //"attack0": "controller.animation.dream_gebulin.attack",
+		//"attack": "animation.dream_huolong.gongji",
+		"move": "animation.dream_huolong.yidong",
+		"stand": "animation.dream_huolong.yidong",
+		"look_at_target": "animation.common.look_at_target"   
+      },
+      "render_controllers": [ 
+	  "controller.render.dream_entity" 
+	  ]
+      
+    }
+  }
+}

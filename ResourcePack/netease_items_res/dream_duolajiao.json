@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dream:duolajiao",
+            "category": "Nature"
+        },
+        "components": {
+            "minecraft:icon": "dream:duolajiao",
+            "minecraft:use_animation": "eat"
+        }
+    }
+}

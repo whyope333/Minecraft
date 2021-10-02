@@ -1,0 +1,11 @@
+{
+"format_version": "1.10",
+"minecraft:item": {
+"description": {
+"identifier": "dream:armor_xinchuntao3"
+},
+"components": {
+"minecraft:icon": "dream:armor_xinchuntao3"
+}
+}
+}
